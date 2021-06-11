@@ -1,0 +1,346 @@
+.navigationContainer{
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+.navbarMenuDesktopContainer{
+    height: 100%;
+    width: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+}
+.navbarMenuDesktopContainer .imageLogoText{
+    display: flex;
+    align-items: center;
+    margin-left: 57px;
+    border: none;
+    background: none;
+    padding: 0;
+}
+.navbarMenuDesktopContainer .imageLogoText .logoImage{
+    height: 60px;
+}
+.navbarMenuDesktopContainer .imageLogoText .logoTextContainer{
+    align-items: center;
+    margin-top: 5px;
+    margin-left: 12px;
+    height: 100%;
+    display: block;
+    font-size: 0;
+    text-align: left;
+}
+.navbarMenuDesktopContainer .imageLogoText .logoText{
+    font-size: 2rem;
+    font-weight: 900;
+    color: rgb(1,24,71);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+.navbarMenuDesktopContainer .imageLogoText .logoSpanText{
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    line-height: 0.5;
+    letter-spacing: 2.5px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-left: 100px;
+    font-weight: 600;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .servicesButton{
+    border: none;
+    background: none;
+    height: 80%;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 22px;
+    padding-right: 9px;
+    padding-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .servicesButton:hover{
+    background-color: rgb(38,42,50);
+    color: white;
+    border-top: 1px solid rgb(110,113,118);
+    border-left: 1px solid rgb(110,113,118);
+    border-right: 1px solid rgb(110,113,118);
+    border-bottom: 3px solid var(--green);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .downArrow{
+    filter: invert(89%) sepia(7%) saturate(73%) hue-rotate(169deg) brightness(88%) contrast(85%);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .servicesButton:hover .downArrow{
+    display: inherit;
+    filter: invert(1%) sepia(93%) saturate(55%) hue-rotate(204deg) brightness(155%) contrast(92%);
+    height: 7px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .companyButton{
+    border: none;
+    background: none;
+    height: 80%;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 22px;
+    padding-right: 9px;
+    padding-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .companyButton:hover{
+    background-color: rgb(38,42,50);
+    color: white;
+    border-top: 1px solid rgb(110,113,118);
+    border-left: 1px solid rgb(110,113,118);
+    border-right: 1px solid rgb(110,113,118);
+    border-bottom: 3px solid var(--green);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .downArrow{
+    filter: invert(89%) sepia(7%) saturate(73%) hue-rotate(169deg) brightness(88%) contrast(85%);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .companyButton:hover .downArrow{
+    display: inherit;
+    filter: invert(1%) sepia(93%) saturate(55%) hue-rotate(204deg) brightness(155%) contrast(92%);
+    height: 7px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .libraryButton{
+    border: none;
+    background: none;
+    height: 80%;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 22px;
+    padding-right: 9px;
+    padding-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .libraryButton:hover{
+    background-color: rgb(38,42,50);
+    color: white;
+    border-top: 1px solid rgb(110,113,118);
+    border-left: 1px solid rgb(110,113,118);
+    border-right: 1px solid rgb(110,113,118);
+    border-bottom: 3px solid var(--green);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .downArrow{
+    filter: invert(89%) sepia(7%) saturate(73%) hue-rotate(169deg) brightness(88%) contrast(85%);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .libraryButton:hover .downArrow{
+    display: inherit;
+    filter: invert(1%) sepia(93%) saturate(55%) hue-rotate(204deg) brightness(155%) contrast(92%);
+    height: 7px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .contactUsButton{
+    border: none;
+    background: none;
+    height: 80%;
+    width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 0px;
+    padding-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .contactUsButton:hover{
+    background-color: rgb(38,42,50);
+    color: white;
+    border-top: 1px solid rgb(110,113,118);
+    border-left: 1px solid rgb(110,113,118);
+    border-right: 1px solid rgb(110,113,118);
+    border-bottom: 3px solid var(--green);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .downArrow{
+    filter: invert(89%) sepia(7%) saturate(73%) hue-rotate(169deg) brightness(88%) contrast(85%);
+}
+.navbarMenuDesktopContainer .navbarMenuButtons .contactUsButton:hover .downArrow{
+    display: inherit;
+    filter: invert(1%) sepia(93%) saturate(55%) hue-rotate(204deg) brightness(155%) contrast(92%);
+    
+}
+.navbarMenuDesktopContainer .navbarMenuDisabledButtons{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    margin-left: 46px;
+    font-weight: 600;
+    
+}
+.navbarMenuDesktopContainer .navbarMenuDisabledButtons .languageButton{
+    border: none;
+    background: none;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-right: 0px;
+    color: rgb(162,160,158);
+    padding-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuDisabledButtons .currencyButton{
+    border: none;
+    background: none;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-right: 0px;
+    color: rgb(162,160,158);
+    margin-left: 36px;
+    padding-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuDisabledButtons .downArrow{
+    filter: invert(50%) sepia(7%) saturate(73%) hue-rotate(169deg) brightness(88%) contrast(85%);
+    padding-left: 11px;
+}
+
+.navbarMenuDesktopContainer .navbarMenuSocialIconsButton{
+    border: none;
+    background: none;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    padding-right: 0px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuSocialIconsButton .buttonNavbarContainer{
+    height: 60px;
+    width: 80px;
+    position:absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 150px;
+}
+.navbarMenuDesktopContainer .navbarMenuSocialIconsButton .iconNavBarDesktop{
+    display: flex;
+    height: 23px;
+    margin-left: 18px;
+    margin-right:18px;
+    margin-bottom: 15px;
+}
+.navbarMenuDesktopContainer .navbarMenuSocialIconsButton .button-navBarDesktop1{
+    border-radius: 100%;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    border: 3px solid var(--green);
+    height: 22px;
+    width: 22px;
+    outline: none;
+    color: var(--green);
+}
+.navigationContainer .toggleNavbarMenuDesktop{
+    width: 100%;
+    height: 384px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(38,42,50);
+    padding: 59px 55px 53px 64px;
+    font-size: 1.1667em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.navigationContainer .toggleNavbarMenuDesktop .productCategoriesDesktop {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+}
+.navigationContainer .toggleNavbarMenuDesktop .detailsCategoryDesktop{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    color: white;
+}
+.navigationContainer .toggleNavbarMenuDesktop .empty1 {
+    grid-column: 2 / 3;
+    color: white;
+}
+.navigationContainer .toggleNavbarMenuDesktop .empty2 {
+    grid-column: 3 / 4;
+    color: white;
+}
+.navigationContainer .toggleNavbarMenuDesktop .salesDesktop {
+    grid-column: 4 / 5;
+    color: white;
+}
+.navigationContainer .toggleNavbarMenuDesktop .dropdownImageDesktop {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    color: white;
+    display: none;
+}
+.navigationContainer .toggleNavbarMenuDesktop .dropdownImageDesktop .imgDropDownContainer{
+    width: 271px;
+    height: 275px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.navigationContainer .toggleNavbarMenuDesktop .detailsCategoryDesktop .detailsButtonDesktop{
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+.navigationContainer .toggleNavbarMenuDesktop .detailsCategoryDesktop1 .detailsButtonDesktop{
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+.navigationContainer .toggleNavbarMenuDesktop .detailsCategoryDesktop2 .detailsButtonDesktop{
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}
+.navigationContainer .toggleNavbarMenuDesktop .detailsCategoryDesktop3 .detailsButtonDesktop{
+    width: 100%;
+    border: none;
+    background: none;
+    color: white;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+    font-weight: 100;
+    margin-top: 10px;
+    letter-spacing: -1px;
+}

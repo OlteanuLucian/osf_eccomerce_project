@@ -1,0 +1,178 @@
+.mainServices{
+    width: 100%;
+    height: 572px;
+    background: rgb(69,65,62);
+    overflow: hidden;
+    position: relative;
+    display:grid;
+    grid-template: 1fr 1fr;
+    gap: 7px;
+    grid-template-areas:
+        "deliveryPackages focus"
+        "method recycle"
+        "clipboar knowledge"
+    ;
+    border-bottom: 1px solid rgb(243,242,242);
+}
+
+.mainServices .deliveryPackages{
+    grid-area: deliveryPackages;
+    position: relative;
+}
+.mainServices .focus{
+    grid-area: focus;
+}
+.mainServices .method{
+    grid-area: method;
+}
+.mainServices .recycle{
+    grid-area: recycle;
+}
+.mainServices .clipboard{
+    grid-area: clipboar;
+}
+.mainServices .knowledge{
+    grid-area: knowledge;
+}
+
+.mainServices .title{
+    color: white;
+    margin-top: 29px;
+    font-size: 22px;
+    margin-bottom: 23px;
+    
+}
+.mainServices .text{
+    font-size: 16px;
+    text-align:left;
+    line-height: 95%;
+    color: rgb(134,131,128);
+    letter-spacing: -0.1px;
+}
+.mainServices .deliveryPackages img{
+    margin-top: 39px;
+    width: 32.82%;
+    margin-left: 38.59%;
+    margin-right: 28.59%;
+}
+.mainServices .recycle img{
+    margin-top: 39px;
+    width: 35%;
+    margin-left: 28.5%;
+    margin-right: 38.5%;
+}
+.mainServices .clipboard img{
+    margin-top: 39px;
+    width: 32.82%;
+    margin-left: 38.59%;
+    margin-right: 28.59%;
+    margin-bottom: 53px;
+}
+
+.mainServices .right{
+    padding-right: 5% ;
+}
+
+.mainServices .left{
+    padding-left: 5%;
+}
+
+.mainServices .text-bottom{
+    margin-bottom: 53px;
+}
+@media only screen and (min-width: 900px) {
+    .mainServices{
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: unset;
+        background: rgba(69, 65, 62, 0);
+        position: none;
+        display:grid;
+        grid-template: inherit;
+        grid-template-columns: repeat(11,1fr);
+        gap: 0px;
+        border-bottom: 0px solid rgb(243,242,242);
+        align-items: unset;
+        grid-template-rows: unset;
+    }
+    .mainServices .deliveryPackages{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-top: -20px;
+        grid-row: 2;
+    }
+    .mainServices .focus{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row: 2;
+    }
+    .mainServices .method{
+        grid-column-start: 6;
+        grid-column-end: 8;
+        grid-row: 2;
+    }
+    .mainServices .recycle{
+        grid-column-start: 5;
+        grid-column-end: 6;
+        grid-row: 2;
+    }
+    .mainServices .clipboard{
+        grid-column-start: 9;
+        grid-column-end: 10;
+        grid-row: 2;
+    }
+    .mainServices .knowledge{
+        grid-column-start: 10;
+        grid-column-end: 12;
+        grid-row: 2;
+    }
+    .mainServices .title{
+        color: white;
+        margin-top: 29px;
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 23px;
+    }
+    .mainServices .text{
+        font-size: 16px;
+        text-align:left;
+        line-height: 95%;
+        color: rgb(134, 131, 128);
+        letter-spacing: -0.1px;
+    }
+    .mainServices .deliveryPackages img{
+        margin-top: 25px;
+        width: 55%;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+    .mainServices .recycle img{
+        margin-top: 0;
+        width: 55%;
+        margin-left: 30%;
+        margin-right: 10%;
+    }
+    .mainServices .clipboard img{
+        margin-top: 0;
+        width: 55%;
+        margin-left: 30%;
+        margin-right: 10%;
+        margin-bottom: 0;
+    }
+    
+    .mainServices .right{
+        padding-right: 5% ;
+        margin-top: 0;
+    }
+    
+    .mainServices .left{
+        padding-left: 5%;        
+        margin-top: 0;
+    }
+    
+    .mainServices .text-bottom{
+        margin-bottom: 0px;
+    }
+}
