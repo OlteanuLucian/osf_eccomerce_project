@@ -9,7 +9,7 @@ import Heart from '../Img/Heart.png';
 import BagForShopping from '../Img/BagForShopping.png';
 import '../NavbarMenuResponsive/NavbarMenuResponsive.css';
 import './Footer.css';
-import Login from '../Login/Login.js';
+import Login from '../LoginForm/LoginForm.js';
 
 function Footer() {
     const [buttonLogin, setButtonLogin] = useState(false);

@@ -64,8 +64,11 @@ function NavbarMenu() {
                             </NavDropdown>
                         </NavDropdown>
                         <NavDropdown title="COMPANY" id="basic-nav-dropdown" sticky="none"></NavDropdown>
-                        <NavDropdown title="LIBRARY" id="basic-nav-dropdown" sticky="none"></NavDropdown>          
+
+                        <NavDropdown title="LIBRARY" id="basic-nav-dropdown" sticky="none"></NavDropdown>   
+
                         <NavDropdown title="CONTACT US" id="basic-nav-dropdown" sticky="none"></NavDropdown>
+                        
                         <Image src={NavImage} fluid sticky="none"/>
                     </Nav>   
                 </Navbar.Collapse>

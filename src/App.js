@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 import Home from "./pages/Home.js";
-
+import NotFoundPage from "./pages/NotFound.js";
 
 // import NavbarMenuResponsive from "./components/NavbarMenuResponsive/NavbarMenuResponsive.js";
 // import NavbarMenuDesktop from "./components/NavbarMenuDesktop/NavbarMenuDesktop.js";
@@ -19,7 +19,7 @@ function App() {
         {/* <Switch> */}
 
           <Route exact path = "/Home" component = {Home}/>
-
+          <Route exact path="/404" component={NotFoundPage} />
         {/* </Switch>         */}
 
       </Router>

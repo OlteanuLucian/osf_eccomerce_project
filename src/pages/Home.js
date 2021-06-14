@@ -1,15 +1,30 @@
-import React from 'react';
+import React from "react"; 
+import {useState, useEffect} from 'react';
 
 
 import NavbarMenuResponsive from "../components/NavbarMenuResponsive/NavbarMenuResponsive.js";
 import NavbarMenuDesktop from "../components/NavbarMenuDesktop/NavbarMenuDesktop.js";
 import Banner from '../components/MainSection/Banner/Banner.js';
 import Services from '../components/MainSection/Services/Services.js';
-
+import FooterPages from '../components/FooterPages/FooterPages.js';
+import FooterPagesDesktop from '../components/FooterPages/FooterPagesDesktop.js';
+import Footer from "../components/Footer/Footer.js";
+import Cookies from '../components/Cookies/Cookies.js';
 import './Home.css';
 
 
 function Home (){
+
+  // cookies 
+  const [buttonCookies, setButtonCookies] = useState(false);
+  const [timedCookies, setTimedCookies] = useState(false);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setTimedCookies(true)
+    }, 3000);
+  },[]);
+
 
   return (
     <div>
@@ -26,20 +41,20 @@ function Home (){
           </div>
           {/* <Products /> */}
           <Banner /> 
-          {/* <Services />
-          <Pagesfooter /> */}
+          {/* <Services />*/}
+          <FooterPages /> 
         </div>
         
-        {/* <div className="footerPageMobile">
+        <div className="footerPageMobile">
           <Footer /> 
-        </div> */}
+        </div>
 
       </div>
 
       <div className="entirePageDesktop">
-
-        {/* <Cookies trigger={buttonCookies} setTrigger={setButtonCookies}></Cookies>
-        <Cookies trigger={timedCookies} setTrigger={setTimedCookies}></Cookies> */}
+        {/* cookies */}
+        <Cookies trigger={buttonCookies} setTrigger={setButtonCookies}></Cookies>
+        <Cookies trigger={timedCookies} setTrigger={setTimedCookies}></Cookies>
         
         <div className="firstRow">
           <NavbarMenuDesktop />
@@ -68,7 +83,7 @@ function Home (){
         </div>
         
         <div className="seventhRow">
-          {/* <PagesFooterDesktop /> */}
+          <FooterPagesDesktop />
           
         </div>
       

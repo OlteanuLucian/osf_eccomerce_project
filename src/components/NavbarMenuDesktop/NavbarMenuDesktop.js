@@ -48,6 +48,7 @@ function NavbarMenuDesktop() {
                         <button className="button-navBarDesktop1">0</button>
                         <button className="button-navBarDesktop1">0</button>
                     </div>
+
                     <img  className="iconNavBarDesktop" src={Search} alt="Search" />
                     <button className="buttonUser" onClick={() => setButtonLogin(true)}><img  className="iconNavBarDesktop" src={ProfileUser} alt="ProfileUser" /></button>
                     <Login trigger={buttonLogin} setTrigger={setButtonLogin}></Login>
@@ -55,6 +56,7 @@ function NavbarMenuDesktop() {
                     <Link to="/ShoppingCart"><img  className="iconNavBarDesktop" src={BagForShopping} alt="BagForShopping" /></Link>
                 </div>
             </div>
+            
             {
                 show?
             
@@ -67,9 +69,10 @@ function NavbarMenuDesktop() {
                         <div className="dropdownImageDesktop">
                             <div className="imgDropDownContainer" >
                                 <img className="imgDropDownDesktop" 
-                                src={DropdownImg} alt="" />
+                                src={DropdownImg} fluid sticky = "none" alt="girl at shopping" />
                             </div>
                         </div>
+
                         <div className="detailsCategoryDesktop">
                             <Link to="/404"><button className="detailsButtonDesktop">Accessories</button></Link>
                             <Link to="/404"><button className="detailsButtonDesktop">Alcohol</button></Link>
@@ -82,7 +85,7 @@ function NavbarMenuDesktop() {
                         </div>
                         <div className="detailsCategoryDesktop1">
                             <Link to="/404"><button className="detailsButtonDesktop">Gadgets</button></Link>
-                            <Link to="/404"><button className="detailsButtonDesktop">Garde</button></Link>
+                            <Link to="/404"><button className="detailsButtonDesktop">Garden</button></Link>
                             <Link to="/404"><button className="detailsButtonDesktop">Grocery</button></Link>
                             <Link to="/404"><button className="detailsButtonDesktop">Home</button></Link>
                             <Link to="/404"><button className="detailsButtonDesktop">Jewelry</button></Link>

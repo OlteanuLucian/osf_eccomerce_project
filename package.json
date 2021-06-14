@@ -2,7 +2,7 @@
   "name": "osf_ecommerce_project",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://github.com/OlteanuLucian/osf_ecommerce_project",
+  "homepage": "https://github.com/OlteanuLucian/osf_ecommerce_project",
   "dependencies": {
     "@testing-library/jest-dom": "^5.13.0",
     "@testing-library/react": "^11.2.7",
