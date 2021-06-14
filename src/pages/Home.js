@@ -10,6 +10,7 @@ import FooterPages from '../components/FooterPages/FooterPages.js';
 import FooterPagesDesktop from '../components/FooterPages/FooterPagesDesktop.js';
 import Footer from "../components/Footer/Footer.js";
 import Cookies from '../components/Cookies/Cookies.js';
+import Slider from "../components/MainSection/Slider/Slider.js";
 import './Home.css';
 
 
@@ -37,7 +38,7 @@ function Home (){
 
         <div className="mainPage">
           <div className="firstRow">
-            {/* <Slider /> */}
+            <Slider />
           </div>
           {/* <Products /> */}
           <Banner /> 
@@ -53,16 +54,15 @@ function Home (){
 
       <div className="entirePageDesktop">
         {/* cookies */}
-        <Cookies trigger={buttonCookies} setTrigger={setButtonCookies}></Cookies>
+        {/* <Cookies trigger={buttonCookies} setTrigger={setButtonCookies}></Cookies>
         <Cookies trigger={timedCookies} setTrigger={setTimedCookies}></Cookies>
-        
+         */}
         <div className="firstRow">
           <NavbarMenuDesktop />
         </div>
         
         <div className="secondRow">
-          {/* <Slider />
-          <Sales /> */}
+          <Slider/>
         </div>
      
         <div className="thirdRow">

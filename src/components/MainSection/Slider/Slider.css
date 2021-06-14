@@ -1,0 +1,143 @@
+.mainContainer {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* slider section */
+
+.titleCarousel {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    width: 80%;
+}
+
+.subTitleCarousel {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+    padding-top: 20%;
+    width: 50%;
+}
+
+.btnCarousel {
+    background-color: transparent;
+    border-radius: 42px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    margin-top: 2%;
+}
+
+.btnCarousel:hover {
+    background-color: #ffffff;
+    color:#45413e;
+}
+
+.leftCarousel {
+    text-align: left;
+}
+
+.leftBtnCarousel {
+    float:left;
+}
+
+.middleCarousel {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.middleBtnCarousel {
+    float: initial;
+    margin-top: 5%;
+}
+
+.rightCarousel {
+    float: right;
+    text-align: right;
+}
+
+.rightBtnCarousel {
+    float:right;
+    clear: right;
+}
+
+.imgBg {height: 505px;
+    width: 870px;
+
+}
+
+.carousel-indicators li {
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: rgb(181, 184, 181);
+    opacity: unset;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.carousel-indicators li.active {
+    height: 9px;
+    width: 9px;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    opacity: unset;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin: 0;
+    margin-top: 6px;
+}
+
+
+/* sales section */
+
+.imgSales {
+    height: 304px;
+    width: 272px;
+}
+
+.titleSales {
+    color: #45413e;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.subTitleSales {
+    color: #45413e;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.btnSales {
+    color: #3a5b96;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: transparent;
+    border-radius: 42px;
+    border: 2px solid #3a5b96;
+    padding: 10px 50px;
+}
+
+.styleFb {
+    margin-right: 20px;
+    color: #3a5b96;
+}
+
+.styleFb {
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.btnSales:hover {
+    background-color: #3a5b96;
+    color: #ffffff;
+}
+
+/* -------------------------------- */
