@@ -35,7 +35,7 @@
 
 .btnCarousel:hover {
     background-color: #ffffff;
-    color:#45413e;
+    color: #45413e;
 }
 
 .leftCarousel {
@@ -43,7 +43,7 @@
 }
 
 .leftBtnCarousel {
-    float:left;
+    float: left;
 }
 
 .middleCarousel {
@@ -62,11 +62,12 @@
 }
 
 .rightBtnCarousel {
-    float:right;
+    float: right;
     clear: right;
 }
 
-.imgBg {height: 505px;
+.imgBg {
+    height: 505px;
     width: 870px;
 
 }
@@ -114,7 +115,7 @@
     font-weight: 600;
 }
 
-.btnSales {
+.styleBtnSales {
     color: #3a5b96;
     font-size: 14px;
     font-weight: 600;
@@ -128,16 +129,51 @@
 .styleFb {
     margin-right: 20px;
     color: #3a5b96;
+    font-weight: bolder;
+}
+form {
+    display: flex;
 }
 
-.styleFb {
-    margin-right: 20px;
-    color: #ffffff;
+
+/* small devices */
+@media (min-width:320px) and (max-width:1024px) {
+    .secondCol {
+        display: none;
+    }
+
+    .colBg {
+        margin-bottom: 5%;
+    }
 }
 
-.btnSales:hover {
-    background-color: #3a5b96;
-    color: #ffffff;
+@media (min-width:320px) and (max-width:480px) {
+    .titleCarousel {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    .subTitleCarousel {
+        width: 100%;
+    }
+
+    .caption {
+        padding-top:0;
+    }
+
+    .colSm {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .carouselItem {
+        height: 472px;
+        width:290px;
+    }
 }
 
-/* -------------------------------- */
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .colBg {
+        margin: 0 auto;
+    }
+}

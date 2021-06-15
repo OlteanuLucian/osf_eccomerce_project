@@ -1,0 +1,54 @@
+.mainContainerServices {
+    background-color: #f2edea;
+    padding: 3%;
+    padding-top: 1%;
+}
+
+.breadcrumbServices {
+    justify-content: center;
+}
+
+.mainTitleServices {
+    color: #45413e;
+    font-size: 48px;
+    font-weight: 400px;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 2%;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.mainTitleServices::before {
+    content: "";
+    display: inline-block;
+    width: 80%;
+    margin: 0 0.5em 0 -55%;
+    vertical-align: middle;
+    border-bottom: 2px solid;
+    color: #ffffff;
+}
+
+.mainTitleServices::after {
+    content: "";
+    display: inline-block;
+    width: 80%;
+    margin: 0 -55% 0 .5em;
+    vertical-align: middle;
+    border-bottom: 2px solid;
+    color: #ffffff;
+}
+
+.landingS {
+    padding-right: 15%;
+}
+
+@media (min-width: 769px){
+    .styleCardColumns {
+        column-count: 4;
+    }
+}

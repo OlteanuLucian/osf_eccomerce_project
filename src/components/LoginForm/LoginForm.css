@@ -1,4 +1,4 @@
-:root{
+/* :root{
     --green: rgb(132,188,34);
 }
 .login{
@@ -121,4 +121,162 @@ form h6 {
     .login .login-inner p{
         margin-top: 15px;
     }
+} */
+
+
+
+.styleMainTitleLogin{
+    color: #45413e;
+    font-family: "Lato - Bold";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.styleFormControlLogin
+{border-radius: 40px;
+    border: 2px solid #d7d7d7;
+    width: 85%;
+    margin: 0 auto;
+
+   
+}
+.styleFormControlLogin:focus {
+    border: 2px solid #d7d7d7;
+    box-shadow: none;
+    }
+
+.styleInputGroupLogin{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.styleColLogin {
+	padding: 0;
+	margin: 0;
+}
+
+.styleInputGroupTextLogin {
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #d7d7d7;
+    border-left: none;
+
+    
+}
+styleInputGroupTextLogin:focus {
+    border-left: none;
+}
+
+
+.stylePassLogin {
+    border-right: none;   
+}
+
+.stylePassLogin:focus {
+    border-right: none;
+}
+
+.styleFormLabelLogin {
+    color: #45413e;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;   
+}
+
+.styleFormLabelLogin .styleColLogin {
+    padding-top: 17px;
+}
+
+.styleFormLabelLogin .styleCol1Login {
+    padding-top: 7px;
+    margin-bottom: -15px;
+}
+
+.styleBtnLogin {
+    border: 2px solid #84bc22;
+    background-color: #84bc22;
+    border-radius: 40px;
+    padding: 10px 70px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+}
+.styleBtnLogin:hover,.styleBtnLogin:active, .styleBtnLogin:focus   {
+    background-color: #79AD1F !important;
+    border: 2px solid #79AD1F !important; 
+    box-shadow: none !important;
+}
+
+.styleLinkLogin {
+    color: #84bc22;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    display: flex;
+    justify-content: center;
+}
+.styleLinkLogin:hover {
+    color: #84bc22;
+}
+
+.styleBtnDivLogin {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.styleBtnUserLogin {
+    background-color: transparent;
+    border: none;
+    color: grey;
+    font-size: 20px;
+    position: relative;
+    bottom: 8px;
+}
+
+
+
+.styleBtnUserLogin:hover{ 
+    color: #4C4C4C !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.styleBtnUserLogin:focus{ 
+    color: #4C4C4C !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.styleBtnUserLogin:active{ 
+    color: #4C4C4C !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
 }

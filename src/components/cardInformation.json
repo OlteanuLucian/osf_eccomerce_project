@@ -1,0 +1,116 @@
+
+[
+    {
+        "id": 1,
+        "title":"Kristina Dam Oak Table With White Marble Top",
+        "price":799.55,
+        "cardImg": "item_1.png",
+        "count" : 1
+    },
+    {
+        "id": 2,
+        "title":"EAMES x Cast + Crew - Custom Powder Coated",
+        "price":799.55,
+        "cardImg": "/Images/item_2.png",
+        "count" : 1
+    },
+    {
+        "id": 3,
+        "title":"Activate Facial Mask and Charcoal Soap",
+        "price":129.55,
+        "cardImg": "/Images/item_3.png",
+        "count" : 1
+    },
+    {
+        "id": 4,
+        "title":"Vitra Cork Stool B, Cork - Design Within Reach",
+        "price":299.99,
+        "cardImg": "./Images/item_4.png",
+        "count" : 1
+    },
+    {
+        "id": 5,
+        "title":"Hay - About A Lounge Chair AAL 93",
+        "price":659.55,
+        "cardImg": "./Images/item_5.png",
+        "count" : 1
+    },
+    {
+        "id": 6,
+        "title":"TORY DESK CALENDAR",
+        "price":410.99,
+        "cardImg": "./Images/item_6.png",
+        "count" : 1
+    },
+    {
+        "id": 7,
+        "title":"CH445 Wing Chair on SUITE NY",
+        "price":330.55,
+        "cardImg": "./Images/item_7.png",
+        "count" : 1
+    },
+    {
+        "id": 8,
+        "title":"CH445 Wing Chair on SUITE NY",
+        "price":330.55,
+        "cardImg": "./Images/item_8.png",
+        "count" : 1
+    },
+    {
+        "id": 9,
+        "title":"Kristina Dam Oak Table With White Marble Top",
+        "price":2195.00,
+        "cardImg": "./Images/item_9.png",
+        "count" : 1
+    },
+    {
+        "id": 10,
+        "title":"MONOQI | Ø50 Crossit Table - Wht/Grn",
+        "price":299.99,
+        "cardImg": "./Images/item_10.png",
+        "count" : 1
+    },
+    {
+        "id": 11,
+        "title":"Vitra Cork Stool B, Cork - Design Within Reach",
+        "price":870.95,
+        "cardImg": "./Images/item_11.png",
+        "count" : 1
+    },
+    {
+        "id": 12,
+        "title":"Activate Facial Mask and Charcoal Soap",
+        "price":129.55,
+        "cardImg": "./Images/item_12.png",
+        "count" : 1
+    },
+    {
+        "id": 13,
+        "title":"Hay - About A Lounge Chair AAL 93",
+        "price":659.55,
+        "cardImg": "/Images/item_13.png",
+        "count" : 1
+    },
+    {
+        "id": 14,
+        "title":"TORY DESK CALENDAR",
+        "price":410.99,
+        "cardImg": "./Images/item_14.png",
+        "count" : 1
+    },
+    {
+        "id": 15,
+        "title":"EAMES x Cast + Crew - Custom Powder Coated",
+        "price":330.55,
+        "cardImg": "/Images/item_15.png",
+        "count" : 1
+    },
+    {
+        "id": 16,
+        "title":"CH445 Wing Chair on SUITE NY",
+        "price":330.55,
+        "cardImg": "/Images/item_16.png",
+        "count" : 1
+    }
+    
+]

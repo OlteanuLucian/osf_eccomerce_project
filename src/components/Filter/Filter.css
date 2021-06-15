@@ -1,0 +1,197 @@
+ .styleBg {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+    padding-top: 4%;
+    padding-right: 7%;
+    border-radius: 10px;
+}
+
+.styleRow {
+    margin-right: 0;
+}
+
+.styleSmRow {
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin-right: 0;
+
+}
+
+.dropTitle {
+    color: #45413e;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    margin-left: 50%
+}
+
+.styleDropdown button {
+    background-color: transparent;
+    border: 2px solid #a2a09e;
+    border-radius: 42px;
+    color: #45413e;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.styleDropdown button:active {
+    background-color: transparent !important;
+    border: 2px solid #A2A09E !important;
+    color: #45413e !important;
+    box-shadow: none !important;
+}
+
+.styleDropdown button:focus {
+    background-color: transparent !important;
+    border: 2px solid #A2A09E !important;
+    color: #45413e !important;
+    box-shadow: none !important;
+}
+
+.styleDropdown button:hover {
+    background-color: transparent !important;
+    border: 2px solid #A2A09E !important;
+    color: #45413e !important;
+    box-shadow: none !important;
+}
+
+
+.styleDropdown .styleBtnDrop {
+    width: 175px;
+    border-right: none;
+}
+
+.styleDropdown .styleBtnDrop:focus {
+    border-right: none !important;
+}
+
+.styleDropdown .styleBtnDrop:active {
+    border-right: none !important;
+}
+
+.styleDropdown .styleBtnDrop:hover {
+    border-right: none !important;
+}
+
+
+.styleDropdown .styleToggle {
+    border-left: none;
+}
+
+.styleDropdown .styleToggle:hover {
+    border-left: none !important;
+}
+
+.styleDropdown .styleToggle:active {
+    border-left: none !important;
+}
+
+.styleDropdown .styleToggle:focus {
+    border-left: none !important;
+}
+
+
+.styleBtnAll {
+    width: 200px;
+}
+
+.styleBtnAll  button{ 
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    border: none;
+}
+
+.styleBtnAll button :last-child{ 
+    margin-right: 0;
+}
+
+.styleBtnWhite {
+    background-color: #ffffff;
+    border:3px solid #45413e;
+    padding-top: 11px;
+    position: relative;
+    bottom: 2px;
+}
+
+.styleBtnLightBlue {
+    background-color: #43c0cf;   
+}
+
+.styleBtnBlack {
+    background-color: #3d402f;
+}
+
+.styleBtnGreen {
+    background-color: #4aaf00;
+}
+
+.styleBtnBlue{
+    background-color: #315BBD;
+}
+
+.styleBtnOrange{
+    background-color: #ec6115;
+}
+
+.styleBtnRed{
+    background-color: #dc041d;
+}
+
+.styleBtnBeige{
+    background-color: #efead7;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 425px) {
+    .styleDropdown .styleBtnDrop {
+        width: 150px;
+    }
+
+    .styleSmRow{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .styleBtnAll {
+        width:180px;
+    }
+
+    .dropTitle {
+        margin-left: 20%;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) and (orientation: landscape) {
+    .styleDropdown .styleBtnDrop {
+        width: 150px;
+    }
+
+    .styleSmRow{
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .styleBtnAll {
+        width:175px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:899px) {
+    .styleDropdown .styleBtnDrop {
+        width: 70px;
+    }
+
+    .styleBtnAll {
+        width: 80px;
+    }
+} 
