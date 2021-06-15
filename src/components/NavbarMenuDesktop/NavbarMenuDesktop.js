@@ -50,7 +50,9 @@ function NavbarMenuDesktop() {
                     </div>
 
                     <img  className="iconNavBarDesktop" src={Search} alt="Search" />
-                    <button className="buttonUser" onClick={() => setButtonLogin(true)}><img  className="iconNavBarDesktop" src={ProfileUser} alt="ProfileUser" /></button>
+                    <button className="buttonUser" onClick={() => setButtonLogin(true)}>
+                        <img  className="iconNavBarDesktop" src={ProfileUser} alt="ProfileUser" />
+                    </button>
                     <Login trigger={buttonLogin} setTrigger={setButtonLogin}></Login>
                     <Link to="/ProductDetailed"><img  className="iconNavBarDesktop" src={Heart} alt="Heart" /></Link>
                     <Link to="/ShoppingCart"><img  className="iconNavBarDesktop" src={BagForShopping} alt="BagForShopping" /></Link>

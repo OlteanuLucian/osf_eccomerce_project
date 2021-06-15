@@ -24,6 +24,7 @@
         "inventore",
         "ips",
         "laudantium",
+        "mdbreact",
         "mobile",
         "nemo",
         "nfpa",
@@ -31,6 +32,7 @@
         "page",
         "password",
         "pinterest",
+        "predeploy",
         "quae",
         "quasi",
         "quia",
@@ -46,5 +48,6 @@
         "vitae",
         "voluptas",
         "voluptate"
-    ]
+    ],
+    "compile-hero.disable-compile-files-on-did-save-code": false
 }

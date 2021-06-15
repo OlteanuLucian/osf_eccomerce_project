@@ -6,8 +6,8 @@ function Banner() {
     return (
         <div className="mainBanner">
             <img className="imgBannerMain" src={Banner1} alt="" />
-            <div className="mainTitle">Banner OSF Theme</div>               
-            <div className="mainText">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</div>               
+            <div className="mainTitleBanner">Banner OSF Theme</div>               
+            <div className="mainTextBanner">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium</div>               
         </div>
     );
   }
