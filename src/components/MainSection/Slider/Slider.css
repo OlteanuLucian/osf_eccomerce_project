@@ -1,77 +1,30 @@
-.mainContainer {
-    margin-top: 25px;
-    margin-bottom: 20px;
+.main{
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
-
-
-/* slider section */
-
-.titleCarousel {
-    color: #ffffff;
-    font-size: 36px;
-    font-weight: 700;
-    width: 80%;
+.firstDiv{
+    height: 472px;
+    margin: 20px 13px 22px 16px;
+    background-color: white;
+    overflow:hidden;
+    border-radius: 7px;
 }
-
-.subTitleCarousel {
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 300;
-    padding-top: 20%;
-    width: 50%;
+.w-100{
+    width: none!important;
 }
-
-.btnCarousel {
-    background-color: transparent;
-    border-radius: 42px;
-    border: 2px solid #ffffff;
-    color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding: 10px 40px;
-    margin-top: 2%;
+.firstDiv .firstImage{
+    height: 472px;
+    border-radius: 3px;
+    object-fit: none;
+    object-position: right;
 }
-
-.btnCarousel:hover {
-    background-color: #ffffff;
-    color: #45413e;
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    display: none;
 }
-
-.leftCarousel {
-    text-align: left;
+.carousel-indicators{
+    margin-bottom: 19px;
 }
-
-.leftBtnCarousel {
-    float: left;
-}
-
-.middleCarousel {
-    text-align: center;
-    margin: 0 auto;
-}
-
-.middleBtnCarousel {
-    float: initial;
-    margin-top: 5%;
-}
-
-.rightCarousel {
-    float: right;
-    text-align: right;
-}
-
-.rightBtnCarousel {
-    float: right;
-    clear: right;
-}
-
-.imgBg {
-    height: 505px;
-    width: 870px;
-
-}
-
 .carousel-indicators li {
     height: 9px;
     width: 9px;
@@ -80,9 +33,8 @@
     opacity: unset;
     margin-left: 9px;
     margin-right: 9px;
-}
-
-.carousel-indicators li.active {
+  }
+.carousel-indicators li.active{
     height: 9px;
     width: 9px;
     border-radius: 50%;
@@ -94,86 +46,114 @@
     margin: 0;
     margin-top: 6px;
 }
-
-
-/* sales section */
-
-.imgSales {
-    height: 304px;
-    width: 272px;
+.carousel-caption{
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin: 23px 16px 90px 17px;
+    padding: 0;  
 }
-
-.titleSales {
-    color: #45413e;
-    font-size: 18px;
-    font-weight: 400;
+.carousel-caption .title{
+    font-size: 28px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+    line-height: 39px;
+    padding-bottom: 43px;
+    padding-left: 0;
+    padding-right: 0;
 }
-
-.subTitleSales {
-    color: #45413e;
-    font-size: 13px;
-    font-weight: 600;
-}
-
-.styleBtnSales {
-    color: #3a5b96;
+.carousel-caption .content{
     font-size: 14px;
     font-weight: 600;
-    text-transform: uppercase;
-    background-color: transparent;
-    border-radius: 42px;
-    border: 2px solid #3a5b96;
-    padding: 10px 50px;
+    margin: 0;
+    text-align: left;
+    padding-bottom: 140px;
+    line-height: 17px; 
 }
-
-.styleFb {
-    margin-right: 20px;
-    color: #3a5b96;
-    font-weight: bolder;
+.carousel-indicators .active{
+    margin-bottom: -20px;
 }
-form {
-    display: flex;
+.btn-primary:not(:disabled):not(.disabled):active{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }
-
-
-/* small devices */
-@media (min-width:320px) and (max-width:1024px) {
-    .secondCol {
-        display: none;
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus{
+    box-shadow: 0 0 0 .2rem rgba(38, 143, 255, 0);
+}
+.buttonView{
+    width: 100%;
+    margin-top: -15px;
+}
+.buttonView .viewMoreButton{
+    border: 2px solid rgb(138,139,142);
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-weight: 300;
+    padding: 5px 30px;
+}
+@media only screen and (min-width: 900px) {
+    .firstDiv{
+        width: 870px;
+        height: 505px;
+        background-color: white;
+        overflow:hidden;
+        padding: 0;
+        margin: 0;
+        margin-right: 30px;
+    } 
+    .w-100{
+        width: none!important;
     }
-
-    .colBg {
-        margin-bottom: 5%;
+    .firstDiv .firstImage{
+        height: 505px;
+        border-radius: 3px;
+        object-fit: none;
+        object-position: right;
     }
-}
-
-@media (min-width:320px) and (max-width:480px) {
-    .titleCarousel {
-        font-size: 28px;
+    .carousel-caption{
+        right: 0;
+        left: 0;
+        bottom: 0;
+        top: 0;
+        margin: 80px 251px 102px 63px;
+        padding: 0;  
+    }
+    .carousel-caption .title{
+        font-size: 3rem;
+        font-weight: 700;
+        margin: 0;
+        text-align: left;
+        line-height: 39px;
+        padding-bottom: 114px;
+        padding-left: 0;
+        padding-right: 0;
+    }   
+    .carousel-caption .content{
+        font-size: .9rem;
+        font-weight: 500;
+        margin: 0;
+        text-align: left;
+        padding-bottom: 46px;
+        line-height: 17px;
+        padding-right: 221px; 
+    }
+    .buttonView{
         width: 100%;
+        margin-top: 0;
+        text-align: left;  
     }
-
-    .subTitleCarousel {
-        width: 100%;
+    .buttonView .viewMoreButton{
+        border: 2px solid rgb(138,139,142);
+        border-radius: 25px;
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+        font-weight: 300;
+        padding: 15px 35px;
     }
-
-    .caption {
-        padding-top:0;
-    }
-
-    .colSm {
-        margin: 0 auto;
-        display: flex;
-        justify-content: center;
-    }
-    .carouselItem {
-        height: 472px;
-        width:290px;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) {
-    .colBg {
-        margin: 0 auto;
+    .carousel-indicators{
+        margin-bottom: 40px;
     }
 }

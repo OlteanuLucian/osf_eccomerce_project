@@ -11,7 +11,11 @@ import FooterPagesDesktop from '../components/FooterPages/FooterPagesDesktop.js'
 import Footer from "../components/Footer/Footer.js";
 import Cookies from '../components/Cookies/Cookies.js';
 import Slider from "../components/MainSection/Slider/Slider.js";
+import Sales from "../components/MainSection/Sales/Sales.js";
+import Products from "../components/MainSection/Products/Products.js"
+import FeaturedProducts from "../components/MainSection/FeaturedProducts/FeaturedProducts.js"
 import './Home.css';
+
 
 
 function Home (){
@@ -39,10 +43,11 @@ function Home (){
         <div className="mainPage">
           <div className="firstRow">
             <Slider />
+            <Sales/>
           </div>
-          {/* <Products /> */}
+          <Products />
           <Banner /> 
-          {/* <Services />*/}
+          <Services />
           <FooterPages /> 
         </div>
         
@@ -63,6 +68,7 @@ function Home (){
         
         <div className="secondRow">
           <Slider/>
+          <Sales/>
         </div>
      
         <div className="thirdRow">
@@ -75,7 +81,7 @@ function Home (){
         </div>
         
         <div className="fifthRow">
-          {/* <FeaturedProducts />  */}
+          <FeaturedProducts />
         </div>
         
         <div className="sixthRow">

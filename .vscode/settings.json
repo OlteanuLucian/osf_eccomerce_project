@@ -17,12 +17,14 @@
         "et",
         "explicabo",
         "fugit",
+        "hezy",
         "illo",
         "imgclip",
         "imgpack",
         "imgrecycle",
         "inventore",
         "ips",
+        "lato",
         "laudantium",
         "mdbreact",
         "mobile",
@@ -49,5 +51,5 @@
         "voluptas",
         "voluptate"
     ],
-    "compile-hero.disable-compile-files-on-did-save-code": false
+    "compile-hero.disable-compile-files-on-did-save-code": true
 }

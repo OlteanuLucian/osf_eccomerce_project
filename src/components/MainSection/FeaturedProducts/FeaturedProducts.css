@@ -1,0 +1,135 @@
+@media only screen and (min-width: 900px) {
+    
+
+    .featuredProductsContainer {
+        background-color: #262a32;
+        padding: 40px 50px 60px 50px;
+    }
+
+    .titleFTPC {
+	    color: #ffffff;
+	    font-family: Lato;
+	    font-size: 36px;
+	    font-weight: 400;
+	    font-style: normal;
+	    letter-spacing: normal;
+	    line-height: normal;
+	    text-align: center;
+    }
+
+    .detailsFTPC {
+        color:#ffffff;
+        font-size: 18px;
+	    font-weight: 400;
+	    font-style: normal;
+	    letter-spacing: normal;
+	    line-height: normal;
+	    text-align: center;
+    }
+
+    .border {
+        position: relative;
+	    overflow: hidden;
+	    margin: 0 auto;
+	    width: 50%;
+    }
+
+    .border:before{
+        content: "";
+        display: inline-block;
+        width: 80%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 3px solid #ffffff;
+    }
+
+    .border:after{
+        content: "";
+        display: inline-block;
+        width: 80%;
+        margin: 0 .5em 0 -55%;
+        vertical-align: middle;
+        border-bottom: 3px solid #ffffff;
+    }
+
+    .secondRowFP {
+        margin-top: 40px;
+            }
+
+    .colFP {
+        padding: 0;
+        border: none;
+    }
+
+    .cardFp {
+        margin-right: 30px;
+    }
+    .cardFP a {
+        text-decoration: none;
+    }
+
+    .cardMainText {
+        color: #45413e;
+        font-size: 16px;
+	    font-weight: 400;
+	    font-style: normal;
+	    letter-spacing: normal;
+	    line-height: normal;
+	    text-align: center;
+    }
+
+    .cardSubText {
+        color: #84bc22;
+        font-size: 14px;
+	    font-weight: 400;
+	    font-style: normal;
+	    letter-spacing: normal;
+	    line-height: normal;
+	    text-align: center;
+    }
+
+    .cardImgFP {
+        background-color: #262a32;
+    }
+
+    .cardHeight {
+        min-height: 108px;
+    }
+
+    .prev {
+        position: absolute;
+        right: 77%;
+        bottom: 1px;
+    }
+
+    .next {
+        position: absolute;
+        left: 77%;
+        bottom: 1px;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	.productsFP {
+		display: none;
+	}
+
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+  
+	.cardHeightFP {
+		min-height: 125px;
+	}
+	
+  }
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+  
+	.cardHeightFP {
+		min-height: 165px;
+	}
+	
+  }

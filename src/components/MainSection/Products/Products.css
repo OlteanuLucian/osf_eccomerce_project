@@ -1,0 +1,235 @@
+.products{
+    width: 100%;
+    height: 507px;
+    background-color: rgb(38,42,50);
+    border-top: 1px solid rgb(102,106,114);
+    border-bottom: 1px solid rgb(102,106,114);
+    align-items: center;
+}
+
+.products .title{
+    height: 38px;
+    margin: 25px 14px 7px 16px;
+    background-color: rgb(38,42,50);
+} 
+
+.card:hover .imgProducts{
+    opacity: 0.1;
+    background-color: black;
+}
+
+.card:hover .overlayCardImage{
+    opacity: 1;
+}
+
+.cardCard{
+    height:365px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cardCard .cardImage .overlayCardImage{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(50,199,119);
+    opacity: 0.9;
+    transition: .5s ease;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px;
+}
+
+.cardCard .cardImage{
+    height:260px;
+    overflow: hidden;
+    opacity: 1;
+}
+
+.card .cardCard .imagePlusHeart{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 13%;
+    opacity: 0;
+    transition: .5s ease;
+}
+
+.card:hover .cardCard .imagePlusHeart{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    margin-top: -55%;
+    margin-left: 13%;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.card .cardCard .imagePlusHeart .plusImage{
+    margin-top: 70px;
+    margin-right: 20px;;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.card .cardCard .imagePlusHeart .heartImage{
+    margin-top: 72px;
+    margin-right: 20px;;
+    margin-left: 45px;
+    margin-bottom: 20px;
+}
+
+.cardButton .hideCardButton{
+    display: flex;
+    justify-content: center;
+    margin-top: -52px;
+}
+
+.cardButton .hideCardButton .hideButtonCurrency{
+    color: var(--green);
+    background-color: white;
+    border: 2px solid rgb(229,229,229);
+    border-right: none;
+    padding: 5px 15px 3px 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    font-size: 1.2rem;
+}
+
+.cardButton .hideCardButton .hideButtonBuyNow{
+    font-size: 1.2rem;
+    background-color: white;
+    border: 2px solid rgb(229,229,229);
+    padding: 5px 15px 3px 15px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.cardImage .imgProducts{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px;
+    transition: .5s ease;
+}
+
+.cardTitle{
+    margin-top: 15px;
+    width: 221px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cardTitle .photoTitle{
+    width: 221px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.01px;
+    color: black;
+}
+
+.cardButton{
+    align-items: center;
+    margin-top: 15px;
+
+}
+
+.cardButton .buttonCurrency{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.products .card{
+    overflow: hidden;
+    margin-left: 16px;
+    margin-right: 14px;
+    height: 365px;
+    border-radius: 10px;
+}
+
+.slick-list {
+    width: 100%;
+    height: 365px;
+}
+
+.products .title .lineProducts{
+    padding: 0;
+    margin:0;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    color: white;
+    z-index: 999;
+}
+
+.products .title .lineProducts::before{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    background: rgb(102,106,114);
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.products .title .lineProducts::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    background: rgb(102,106,114);
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.title .lineProducts .popularItems{
+    background-color: rgb(38,42,50);
+    padding-left: 25px;
+    padding-right:25px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -.7px;
+    color: white;
+    z-index: 1000;
+}
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    margin-bottom: -40px;
+}
+
+.slick-dots li {
+    margin: 0 0.25rem;
+}
+
+.slick-dots li button {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border-radius: 100%;
+    background-color:rgb(147,149,153);
+    text-indent: -9999px;
+}
+
+.slick-dots li.slick-active button {
+    width: 13px;
+    height: 13px; 
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 100%;
+}

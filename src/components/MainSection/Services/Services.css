@@ -10,7 +10,7 @@
     grid-template-areas:
         "deliveryPackages focus"
         "method recycle"
-        "clipboar knowledge"
+        "clipboard knowledge"
     ;
     border-bottom: 1px solid rgb(243,242,242);
 }
@@ -29,7 +29,7 @@
     grid-area: recycle;
 }
 .mainServices .clipboard{
-    grid-area: clipboar;
+    grid-area: clipboard;
 }
 .mainServices .knowledge{
     grid-area: knowledge;

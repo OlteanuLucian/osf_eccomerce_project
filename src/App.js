@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
 
 
 
@@ -9,19 +9,33 @@ import NotFoundPage from "./pages/NotFound.js";
 import CategoryLandingServices from "./pages/CategoryLandingServices.js"
 
 function App() {
+
+  // const code = 404;
+
   return (
       
       <Router>
         
-        {/* <Switch> */}
+          {/* {code === 200 && (<Redirect to = "/Home" />)}
+          {code === 404 && (<Redirect to = "/404" />)} */}
 
-          <Route exact path = "/Home" component = {Home}/>
-          <Route exact path="/404" component={NotFoundPage} />
-          <Route exact path ="/CategoryLandingServices" component = {CategoryLandingServices}/>
-        {/* </Switch>         */}
+        <Switch>
+
+          <Route exact path = "/Home">
+              <Home/>
+          </Route>
+
+          <Route exact path="/404">
+            <NotFoundPage />
+          </Route>
+          
+          <Route exact path ="/CategoryLandingServices">
+            <CategoryLandingServices />
+          </Route>
+          <Redirect to="/Home" />
+        </Switch>        
 
       </Router>
-     
   );
 }
 

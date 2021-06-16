@@ -5,13 +5,10 @@
     overflow: hidden;
     position: relative;
     text-align: center;
-    color: white;
 }
 .mainBanner img{
     height: 100%;
-    width: auto;
 }
-
 .mainBanner .mainTitle{
     width: 100%;
     position: absolute;
@@ -42,7 +39,7 @@
         text-align: center;
         color: white;
     }
-    .mainBanner .mainTitleBanner{
+    .mainBanner .mainTitle{
         width: 100%;
         position: absolute;
         top: 40%;

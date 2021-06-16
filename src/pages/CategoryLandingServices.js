@@ -1,6 +1,5 @@
 import React, {useEffect} from "react";
 import "../App.css";
-import LandingServices from "../components/LandingServices/LandingServices.js";
 
  function CategoryServices(){
     useEffect(()=>{
@@ -8,9 +7,9 @@ import LandingServices from "../components/LandingServices/LandingServices.js";
     },[]);
     return (
         <div className="App">
-            <LandingServices/>
+            
 
-            sdsfd hello SAMPLE
+            
         </div>
     );
 };
