@@ -105,10 +105,10 @@ class FeaturedProducts extends Component {
                         <Col className = "colFP">
                             <Slider ref = {(c) => (this.slider = c)} {...settings} slickPrev={null}>
                                 {cards.map(({imgImp, title, text}) => (
-                                    <div>
-                                        <Card className = "cardFP">
-                                            <Link to ="/404" >
-                                                {/* insert link to product detailed page section 7 */}
+                                    <div className = "cardWrapper">
+                                        <Card className = "cardGlobalFP">
+                                            <Link to ="/ProductDetailedPage">
+                                                
                                                 <Card.Img className = "cardImgFP" variant="top" src={imgImp}/>
 
                                                 <Card.Body className = "cardHeightFP">

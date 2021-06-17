@@ -11,6 +11,10 @@
 
 }
 
+.entirePageDesktop .fifthRow{
+    display: 100%;
+    height: auto;
+}
 
 @media only screen and (min-width: 900px) {
     .entirePageMobile {
@@ -45,8 +49,7 @@
         padding-left: 56px;
         padding-right: 56px;
         padding-top: 44px;
-        height: 564px;
-        max-height: 564px;
+        height: auto;
     }
     .entirePageDesktop .sixthRow{
         margin: 0;

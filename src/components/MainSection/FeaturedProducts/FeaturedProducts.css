@@ -8,7 +8,6 @@
 
     .titleFTPC {
 	    color: #ffffff;
-	    font-family: Lato;
 	    font-size: 36px;
 	    font-weight: 400;
 	    font-style: normal;
@@ -61,14 +60,20 @@
         border: none;
     }
 
-    .cardFp {
-        margin-right: 30px;
+    .slick-slide div {
+        margin: 10px;
     }
-    .cardFP a {
+
+    .cardGlobalFp {
+        margin-right: 30px;
+        margin-left:-30px;
+    }
+
+    .cardGlobalFP a {
         text-decoration: none;
     }
 
-    .cardMainText {
+    .cardMainTextFP {
         color: #45413e;
         font-size: 16px;
 	    font-weight: 400;
@@ -78,7 +83,7 @@
 	    text-align: center;
     }
 
-    .cardSubText {
+    .cardSubTextFP {
         color: #84bc22;
         font-size: 14px;
 	    font-weight: 400;
@@ -92,8 +97,9 @@
         background-color: #262a32;
     }
 
-    .cardHeight {
-        min-height: 108px;
+    .cardHeightFP {
+        
+        min-height: 113px;
     }
 
     .prev {

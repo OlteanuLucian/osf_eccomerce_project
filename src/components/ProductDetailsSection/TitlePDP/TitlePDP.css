@@ -1,0 +1,129 @@
+.titlePDP {
+    font-size: .9rem;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.titlePDP .breadcrumbPDP {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlePDP .breadCrumbPDP a {
+    text-decoration: none;
+    color: #45413e;
+    width: auto;
+}
+
+.titlePDP .breadCrumbPDP a .homeCrumbPDP {
+    color: #84bc22;
+}
+
+.breadCrumbPDP .slashBC {
+    margin-left:0px;
+    color: #c0c6c9;
+}
+
+.breadCrumbPDP .popularItemPDP {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titlePDP .titleArticle {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.titlePDP .titleArticle .linePDP {
+    padding: 0;
+    margin:0;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    color:#ffffff;
+    width:100%;
+    z-index: 999;
+}
+
+.titlePDP .titleArticle .linePDP .popularItemPDP {
+    font-size: 36px;
+    color: #45413e;
+    font-weight: 600;
+}
+
+.titleArticle .linePDP::before {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    color: #e5e2df;
+    left: 0;
+    top:50%;
+    z-index: 2;
+}
+
+.titleArticle .linePDP::after {
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    color: #e5e2df;
+    left: 0;
+    top:50%;
+    z-index: -2;
+}
+
+@media only scree and (min-width: 900px) {
+    .titlePDP .breadcrumbPDP {
+        width: 32%;
+        font-size: 1.2rem;
+        overflow: hidden;
+    }
+
+    .titlePDP .titleArticle .linePDP .popularItemPDP {
+        font-size: 3rem;
+        color: rgba(0, 0, 0, 0.782);
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .titleArticle .linePDP .popularItemPDP::before {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        color: #e5e2df;
+        left: 0;
+        top:50%;
+        z-index: -2;
+    }
+
+    .titleArticle .linePDP .popularItemPDP::after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        color: #e5e2df;
+        left: 0;
+        top:50%;
+        z-index: -2;
+    }
+
+    .titlePDP {
+        font-size: .9rem;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+
+
+}

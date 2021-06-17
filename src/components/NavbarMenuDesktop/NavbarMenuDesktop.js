@@ -54,6 +54,7 @@ function NavbarMenuDesktop() {
                         <img  className="iconNavBarDesktop" src={ProfileUser} alt="ProfileUser" />
                     </button>
                     <Login trigger={buttonLogin} setTrigger={setButtonLogin}></Login>
+                    
                     <Link to="/ProductDetailed"><img  className="iconNavBarDesktop" src={Heart} alt="Heart" /></Link>
                     <Link to="/ShoppingCart"><img  className="iconNavBarDesktop" src={BagForShopping} alt="BagForShopping" /></Link>
                 </div>

@@ -1,0 +1,85 @@
+/* small devices */
+.entirePageMobilePDP{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(242,237,234);
+}
+
+.mainPagePDP {
+    padding-top: 62px;
+}
+
+.productDetailedPage .entirePageDesktopPDP {
+    display: none;
+}
+
+/* desktop */
+
+@media only screen and (min-width: 900px) {
+    .productDetailedPage .entirePageMobilePDP {
+        display: none;
+    }
+
+    .productDetailedPage .entirePageDesktopPDP {
+        display: inherit;
+    }
+
+    .productDetailedPagePDP .entirePageDesktopPDP .theFirstRowPDP{
+        position: fixed;
+        background-color: rgba(222, 184, 135, 0.57);
+        width: 100%;
+        height: 80px;
+        border-bottom: 2px solid rgb(243,240,234);
+        z-index:1000;
+    }
+
+    .productDetailedPagePDP .entirePageDesktopPDP .theSecondRowPDP{
+        background-color: rgb(242,237,234);
+        display: inherit;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 106px;
+        z-index: 28;
+        width: 100%;
+    }
+
+    .productDetailedPagePDP .entirePageDesktopPDP .theThirdRowPDP{
+        background-color: rgb(242,237,234);
+        margin-top: 0;
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+    .productDetailedPage .entirePageDesktop .theFifthRowPDP{
+        background-color: rgb(242,237,234);
+        padding-left: 56px;
+        padding-right: 56px;
+        padding-top: 44px;
+        height: 430px;
+        max-height: 430px;
+        overflow: hidden;
+    }
+
+    .productDetailedPagePDP .entirePageDesktopPDP .theSixthRowPDP{
+        margin: 0;
+        padding: 0;
+        height:198px;
+        max-height: 198px;
+        padding-left: 55px;
+        padding-right: 55px;
+        background: rgb(69,65,62);
+        align-items: center;
+    }
+    
+    .productDetailedPagePDP .entirePageDesktopPDP .theSeventhRowPDP{
+        margin: 0;
+        padding: 0;
+        height: 360px;
+        max-height: 360px;
+        padding-left: 55px;
+        padding-right: 55px;
+        padding-top: 40px;
+    }
+}

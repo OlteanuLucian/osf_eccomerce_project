@@ -72,8 +72,7 @@ function Home (){
         </div>
      
         <div className="thirdRow">
-          {/* <TitleCards />
-          <Cards /> */}
+          
         </div> 
         
         <div className="fourthRow">
