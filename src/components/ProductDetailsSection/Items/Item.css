@@ -259,6 +259,7 @@
 
 .counterDiv .buttonNumber span {
     color: #000000;
+    align-content: center;
 }
 
 .counterDiv .buttonPlus {

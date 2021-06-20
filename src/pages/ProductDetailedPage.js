@@ -20,41 +20,40 @@ import FooterPagesDesktop from '../components/FooterPages/FooterPagesDesktop.js'
 function ProductDetailedPage () {
     return (
         <div className = "productDetailedPage">
-            <div className = "entirePageMobilePDP">
-                <div className = "navigationMenuPDP">
-                    {/* <NavbarMenuResponsive/> */}
+            <div className = "entirePageMobile">
+                <div className = "navigationMenu">
+                    <NavbarMenuResponsive/> 
                 </div>
                 <div className = "mainPagePDP">
-                    {/* <TitlePDP/>
-                    <Item/>
-                    <Popular/> */}
-                    {/* <Services/> */}
-                    {/* <FooterPages/>
-                    <Footer/> */}
+                    <TitlePDP/> 
+                    <Item/> 
+                    <Popular/> 
+                    <Services/> 
+                    <FooterPages/>
+                    <Footer/> 
                 </div>
             </div>
 
-            <div className = "entirePageDesktopPDP">
-                <div className = "theFirstRowPDP">
-                    <NavbarMenuDesktop/>
-                </div>
-                <div className = "theSecondRowPDP">
-                    <TitlePDP/>
-                    <Item/>
-                </div>
-                <div className = "theThirdRowPDP">
-                    <Description/>
-                </div>
-                
-                <div className = "theFifthRowPDP">
-                    <Cards/>
-                </div>
-                <div className = "theSixthRowPDP">
-                    <Services/>
-                </div>
-                <div className = "theSeventhRowPDP">
-                    <FooterPagesDesktop/>
-                </div>
+            <div className = "entirePageDesktop">
+            <div className="firstRow">
+          <NavbarMenuDesktop />
+        </div>
+        <div className="secondRow">
+          <TitlePDP />
+          <Item />
+          <Description />
+        </div>
+        <div className="thirdRow">
+        </div>
+        <div className="theFifthRow">
+          <Cards /> 
+        </div>
+        <div className="theSixthRow">
+          <Services />
+        </div>
+        <div className="theSeventhRow">
+          <FooterPagesDesktop />
+        </div>
             </div>            
         </div>
     )

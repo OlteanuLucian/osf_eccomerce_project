@@ -117,7 +117,7 @@ class Products extends Component {
                                     </div>
                                     <div className="imagePlusHeart">
                                         <Link to='/ShoppingCart'><img className="plusImage" src={Plus} alt="Plus"></img></Link>
-                                        <Link to='/ProductDetailed'><img className="heartImage" src={Heart} alt="Heart"></img></Link>
+                                        <Link to='/ProductDetailedPage'><img className="heartImage" src={Heart} alt="Heart"></img></Link>
                                     </div>
                                     <div className="cardTitle">
                                         <h3 className="photoTitle">{photo.title}</h3>
@@ -127,7 +127,7 @@ class Products extends Component {
                                         { 
                                             this.state.show?
                                                 <div className="hideCardButton">
-                                                    <Link to='/ProductDetailed'><button className="hideButtonCurrency" onClick={() => this.operation()}>{photo.currency + photo.price}</button></Link>
+                                                    <Link to='/ProductDetailedPage'><button className="hideButtonCurrency" onClick={() => this.operation()}>{photo.currency + photo.price}</button></Link>
                                                     <Link to='/ShoppingCart'><button className="hideButtonBuyNow">BUY NOW</button></Link>
                                                 </div>
                                             :null

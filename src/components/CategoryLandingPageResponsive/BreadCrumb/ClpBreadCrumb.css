@@ -1,0 +1,30 @@
+.clpBreada{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: .9rem;
+    margin-top: 20px;
+}
+
+.clpBreada .clpa{
+    text-decoration: none;
+    color: black;
+}
+
+
+.clpBreada a .homeCrumb{
+    color: rgb(132,188,34);
+}
+@media only screen and (min-width: 900px) {
+    .clpBreada{
+        width: 15.5%;
+        display: flex;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 1.1rem;
+        margin-top: 20px;
+    }
+}

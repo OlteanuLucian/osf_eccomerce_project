@@ -1,5 +1,4 @@
-/* small devices */
-.entirePageMobilePDP{
+.entirePageMobile{
     width: 100%;
     height: 100%;
     margin: 0;
@@ -7,26 +6,20 @@
     background-color: rgb(242,237,234);
 }
 
-.mainPagePDP {
+.mainPage{
     padding-top: 62px;
 }
-
-.productDetailedPage .entirePageDesktopPDP {
+.productDetailedPage .entirePageDesktop{
     display: none;
 }
-
-/* desktop */
-
 @media only screen and (min-width: 900px) {
-    .productDetailedPage .entirePageMobilePDP {
-        display: none;
+    .productDetailedPage .entirePageMobile {
+      display: none;
     }
-
-    .productDetailedPage .entirePageDesktopPDP {
+    .productDetailedPage .entirePageDesktop{
         display: inherit;
     }
-
-    .productDetailedPagePDP .entirePageDesktopPDP .theFirstRowPDP{
+    .productDetailedPage .entirePageDesktop .firstRow{
         position: fixed;
         background-color: rgba(222, 184, 135, 0.57);
         width: 100%;
@@ -34,8 +27,7 @@
         border-bottom: 2px solid rgb(243,240,234);
         z-index:1000;
     }
-
-    .productDetailedPagePDP .entirePageDesktopPDP .theSecondRowPDP{
+    .productDetailedPage .entirePageDesktop .secondRow{
         background-color: rgb(242,237,234);
         display: inherit;
         padding-left: 55px;
@@ -44,15 +36,13 @@
         z-index: 28;
         width: 100%;
     }
-
-    .productDetailedPagePDP .entirePageDesktopPDP .theThirdRowPDP{
+    .productDetailedPage .entirePageDesktop .thirdRow{
         background-color: rgb(242,237,234);
         margin-top: 0;
         padding-left: 56px;
         padding-right: 56px;
     }
-
-    .productDetailedPage .entirePageDesktop .theFifthRowPDP{
+    .productDetailedPage .entirePageDesktop .theFifthRow{
         background-color: rgb(242,237,234);
         padding-left: 56px;
         padding-right: 56px;
@@ -61,8 +51,7 @@
         max-height: 430px;
         overflow: hidden;
     }
-
-    .productDetailedPagePDP .entirePageDesktopPDP .theSixthRowPDP{
+    .productDetailedPage .entirePageDesktop .theSixthRow{
         margin: 0;
         padding: 0;
         height:198px;
@@ -72,8 +61,7 @@
         background: rgb(69,65,62);
         align-items: center;
     }
-    
-    .productDetailedPagePDP .entirePageDesktopPDP .theSeventhRowPDP{
+    .productDetailedPage .entirePageDesktop .theSeventhRow{
         margin: 0;
         padding: 0;
         height: 360px;

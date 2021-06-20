@@ -22,8 +22,8 @@ function ShoppingCart(){
         <div>
             
             {/* small devices */}
-            <div className = "entirePageMobileSC">
-                <div className = "navigationMenuSC">
+            <div className = "entirePageMobile">
+                <div className = "navigationMenu">
                     <NavbarMenuResponsive />
                 </div>
 
@@ -37,19 +37,19 @@ function ShoppingCart(){
             </div>
 
             {/* desktop */}
-            <div className = "entirePageDesktopSC">
-                <div className = "firstRowSC">
-                    <NavbarMenuDesktop/>
-                </div>
-                <div className = "secondRowSC">
-                    <TitleCart/>
-                </div>
-                <div className = "thirdRowSC">
-                    <BodyCart/>
-                </div>
-                <div className = "forthRowSC">
-                    <FooterPagesDesktop/>
-                </div>
+            <div className = "entirePageDesktop">
+            <div className="firstRow">
+          <NavbarMenuDesktop />
+        </div>
+        <div className="secondRow">
+          <TitleCart />
+        </div>
+        <div className="thirdRow">
+          <BodyCart />
+        </div>
+        <div className="theSeventhRow">
+          <FooterPagesDesktop />
+        </div>
             </div>
         </div>
     )

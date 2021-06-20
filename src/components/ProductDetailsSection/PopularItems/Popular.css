@@ -1,0 +1,157 @@
+.productsP{
+    width: 100%;
+    background-color: rgb(241,237,234);
+    border-bottom: 1px solid rgba(102, 106, 114, 0.111);
+    align-items: center;
+}
+
+.productsP .titleP{
+    height: 38px;
+    margin: 25px 14px 7px 16px;
+    background-color: rgb(241,237,234);
+} 
+
+.cardCardP{
+    height:365px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cardImageP{
+    height:260px;
+    overflow: hidden;
+}
+.cardImageaP .imgProductsP{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 8px ;
+    border-top-right-radius: 8px;
+}
+.cardTitleP{
+    width: 221px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cardTitleP .photoTitleP{
+    width: 221px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.01px;
+    color: black;
+    margin-top: 15px;
+}
+.cardButtona{
+    align-items: center;
+}
+
+.cardButtona .buttonCurrencya{
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    width: 100%;
+    font-weight: 600;
+    color: rgb(198,203,206);
+}
+.productsP .cardP{
+    overflow: hidden; 
+    margin-left: 16px;
+    margin-right: 14px;
+    height: 365px;
+    border-radius: 10px;
+}
+.slick-listP{
+    width: 100%;
+    height: 365px;
+
+}
+
+.productsP .titleP .lineProductsP{
+    padding: 0;
+    margin:0;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    color: white;
+    z-index: 999;
+}
+.productsP .titleP .lineProductsP::before{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    background: rgb(229,226,223);
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+.productsP .titleP .lineProductsP::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    background: rgb(229,226,223);
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+
+.titleP .lineProductsP .popularItemsP{
+    background-color: rgb(241,237,234);
+    padding-left: 25px;
+    padding-right:25px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: -.7px;
+    color: rgb(0, 0, 0);
+    z-index: 1000;
+}
+/* Slider Dots */
+  .cardP .slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+    list-style-type: none;
+    margin-bottom: -40px;
+  }
+  .cardP .slick-dots li {
+    margin: 0 0.25rem;
+  }
+  .cardP .slick-dots li button {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border-radius: 100%;
+    background-color:rgb(147,149,153);
+    text-indent: -9999px;
+  }
+  .cardP .slick-dots li.slick-active button {
+    width: 13px;
+    height: 13px; 
+    background-color: rgba(0, 0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 100%;
+  }
+
+  .scrollDiv{
+      width: 100%;
+      padding-top: 70px;
+      padding-bottom:40px;
+      text-align: center;
+  }
+
+  .scrollDiv .scrollToTop{
+      position: relative;
+      background-color: var(--green);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      padding: 8px 30px 8px 30px;
+  }

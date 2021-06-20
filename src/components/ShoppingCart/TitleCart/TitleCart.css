@@ -1,0 +1,104 @@
+.pdpBread{
+    font-size: .9rem;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 30px;
+}
+.pdpBread .breadCrumbPdp{
+    width: 45%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pdpBread .breadCrumbPdp a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    width: auto;
+}
+.pdpBread .breadCrumbPdp a .homeCrumb{
+    color: rgb(132,188,34);
+}
+
+.breadCrumbPdp .slasha{
+    margin: 0;
+    color: rgb(192,198,201);
+}
+
+.breadCrumbPdp .linkto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pdpBread  .titlea{
+    width: 100%;
+    margin-top: 30px;
+}
+
+.pdpBread .titlea .lineProductsa{
+    padding: 0;
+    margin:0;
+    line-height: normal;
+    text-align: center;
+    position: relative;
+    color: white;
+    z-index: 999;
+    width: 100%;
+}
+
+.pdpBread .titlea .lineProductsa .popularItemsa{
+    font-size: 1.8rem;
+    color: rgba(0, 0, 0, 0.782);
+}
+
+.titlea .lineProductsa::before{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    background: rgb(229,226,223);
+    left: 0;
+    top: 50%;
+    z-index: -2;
+}
+.titlea .lineProductsa::after{
+    content: "";
+    display: block;
+    width: 170px;
+    height: 2px;
+    position: absolute;
+    background: rgb(229,226,223);
+    right: 0;
+    top: 50%;
+    z-index: -2;
+}
+@media only screen and (min-width: 900px) {
+    .pdpBread{
+        font-size: .9rem;
+        margin-top: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    .pdpBread .breadCrumbPdp{
+        width: 13%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pdpBread  .titlea{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .pdpBread .titlea .lineProductsa .popularItemsa{
+        font-size: 3rem;
+        font-weight: 900;
+        color: rgba(0, 0, 0, 0.782);
+    }
+}

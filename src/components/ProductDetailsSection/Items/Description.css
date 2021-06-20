@@ -1,0 +1,54 @@
+.tabTab {
+    background-color: #262A33;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    padding: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.tabsTab a {
+    padding: 20px;
+}
+
+.containerTab {
+    margin-top: 80px;
+    display: inline;
+}
+
+.colTab nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colTab nav a {
+    color: #bdc3c7;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border-top-left-radius: 20px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #ffffff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #262A33;
+    border-color:transparent !important;
+} 
+
+.nav-link.active:hover {
+    border:none;
+    border-color: transparent !important;
+}

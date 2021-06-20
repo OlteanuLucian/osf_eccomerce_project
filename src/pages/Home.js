@@ -15,9 +15,10 @@ import Sales from "../components/MainSection/Sales/Sales.js";
 import Products from "../components/MainSection/Products/Products.js"
 import FeaturedProducts from "../components/MainSection/FeaturedProducts/FeaturedProducts.js"
 import './Home.css';
-
-
-
+import TitlePDP from "../components/ProductDetailsSection/TitlePDP/TitlePDP.js";
+import Item from "../components/ProductDetailsSection/Items/Item.js"
+import TitleCards from "../components/CategoryLandingPageResponsive/Cards/TitleCards.js"
+import Cards from "../components/CategoryLandingPageResponsive/Cards/Cards.js";
 function Home (){
 
   // cookies 
@@ -36,25 +37,23 @@ function Home (){
      
      <div className="entirePageMobile">
        
+       {/* cookies to be inserted */}
         <div className="navigationMenu">
           <NavbarMenuResponsive />
         </div>
 
         <div className="mainPage">
-          <div className="firstRow">
-            <Slider />
-            <Sales/>
+          <div className = "theFirstRow">
+            <Slider/>
           </div>
-          <Products />
-          <Banner /> 
+          <Products/>
+          <Banner />
           <Services />
           <FooterPages /> 
         </div>
-        
         <div className="footerPageMobile">
           <Footer /> 
         </div>
-
       </div>
 
       <div className="entirePageDesktop">
@@ -65,31 +64,25 @@ function Home (){
         <div className="firstRow">
           <NavbarMenuDesktop />
         </div>
-        
         <div className="secondRow">
-          <Slider/>
-          <Sales/>
+          <Slider />
+          <Sales />
         </div>
-     
         <div className="thirdRow">
-          
-        </div> 
-        
+          <TitleCards />
+          <Cards />
+        </div>
         <div className="fourthRow">
           <Banner /> 
         </div>
-        
-        <div className="fifthRow">
-          <FeaturedProducts />
+        <div className="theFifthRow">
+          <FeaturedProducts /> 
         </div>
-        
-        <div className="sixthRow">
-          <Services /> 
+        <div className="theSixthRow">
+          <Services />
         </div>
-        
-        <div className="seventhRow">
+        <div className="theSeventhRow">
           <FooterPagesDesktop />
-          
         </div>
       
       </div>

@@ -1,4 +1,4 @@
-.entirePageMobileNFP{
+.entirePageMobile{
     width: 100%;
     height: 100%;
     margin: 0;
@@ -9,17 +9,17 @@
 .mainPage{
     padding-top: 62px;
 }
-.entirePageDesktopNFP{
+.entirePageDesktop{
     display: none;
 }
 @media only screen and (min-width: 900px) {
-    .entirePageMobileNFP {
+    .entirePageMobile {
       display: none;
     }
-    .entirePageDesktopNFP{
+    .entirePageDesktop{
         display: inherit;
     }
-    .entirePageDesktopNFP .firstRow{
+    .entirePageDesktop .firstRow{
         position: fixed;
         background-color: rgba(222, 184, 135, 0.57);
         width: 100%;
@@ -27,7 +27,7 @@
         border-bottom: 2px solid rgb(243,240,234);
         z-index:1000;
     }
-    .entirePageDesktopNFP .secondRow{
+    .entirePageDesktop .secondRow{
         display: flex;
         padding-left: 55px;
         padding-right: 55px;
@@ -35,13 +35,13 @@
         z-index: 29;
         background-color: rgb(241,237,234);
     }
-    .entirePageDesktopNFP .thirdRow{
+    .entirePageDesktop .thirdRow{
         background-color: rgb(241,237,234);
         padding-top: 0;
         padding-left: 56px;
         padding-right: 56px;
     }
-    .entirePageDesktopNFP .theFifthRow{
+    .entirePageDesktop .theFifthRow{
         padding-left: 56px;
         padding-right: 56px;
         padding-top: 44px;
@@ -50,7 +50,7 @@
         background-color: rgb(241,237,234);
 
     }
-    .entirePageDesktopNFP .theSeventhRow{
+    .entirePageDesktop .theSeventhRow{
         margin: 0;
         padding: 0;
         height: 360px;
