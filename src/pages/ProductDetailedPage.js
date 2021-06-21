@@ -34,16 +34,22 @@ function ProductDetailedPage () {
                 </div>
             </div>
 
-            <div className = "entirePageDesktop">
-            <div className="firstRow">
+            <div className="entirePageDesktop">
+        <div className="firstRow">
           <NavbarMenuDesktop />
         </div>
-        <div className="secondRow">
+        < div className= "secondRow">
           <TitlePDP />
           <Item />
-          <Description />
+          
+          
         </div>
         <div className="thirdRow">
+        
+          
+        </div>
+        <div className="forthRow">
+       
         </div>
         <div className="theFifthRow">
           <Cards /> 
@@ -54,7 +60,7 @@ function ProductDetailedPage () {
         <div className="theSeventhRow">
           <FooterPagesDesktop />
         </div>
-            </div>            
+      </div>           
         </div>
     )
 }

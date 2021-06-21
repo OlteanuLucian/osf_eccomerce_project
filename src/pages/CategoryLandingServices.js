@@ -34,13 +34,16 @@ function CategoryLandingPage() {
             <NavbarMenuDesktop />
           </div>
           <div className="secondRow">
-            <ClpBreadCrumb />
-            <ClpServices />
-            <Filter />
+            <ClpBreadCrumb />           
+          </div>
+          <div className="thirdRow">
+          <ClpServices />
+          <Filter />
           </div>
           <div className="thirdRow">
             <CardsDesktopLanding />
           </div>
+          
           <div className="theFifthRow">
             <FeaturedProducts /> 
           </div>

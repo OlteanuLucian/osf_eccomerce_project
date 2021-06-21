@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Breadcrumb from "react-bootstrap/Breadcrumb";
 import "./TitlePDP.css";
 
 function TitlePDP(){
@@ -21,6 +22,7 @@ function TitlePDP(){
                 </h4>
             </div>
         </div>
+
     )
 }
 

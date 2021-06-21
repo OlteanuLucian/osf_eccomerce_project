@@ -55,7 +55,7 @@ export class Cards extends Component {
                                 { 
                                     this.state.show && this.state.id===item.id?
                                         <div className="hideCardButton">
-                                            <Link to='/ProductDetailedPage'><button className="hideButtonCurrency" >{item.currency + item.cost}</button></Link>
+                                            <Link to='/ProductDetailed'><button className="hideButtonCurrency" >{item.currency + item.cost}</button></Link>
                                             <Link to='/ShoppingCart'><button className="hideButtonBuyNow">BUY NOW</button></Link>
                                         </div>
                                         

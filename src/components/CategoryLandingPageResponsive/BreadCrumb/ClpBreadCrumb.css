@@ -1,30 +1,24 @@
-.clpBreada{
-    width: 40%;
-    display: flex;
-    justify-content: space-between;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: .9rem;
-    margin-top: 20px;
-}
-
-.clpBreada .clpa{
-    text-decoration: none;
-    color: black;
-}
 
 
-.clpBreada a .homeCrumb{
-    color: rgb(132,188,34);
+div {
+    margin:0 auto;
 }
-@media only screen and (min-width: 900px) {
-    .clpBreada{
-        width: 15.5%;
-        display: flex;
-        justify-content: space-between;
-        margin-left: auto;
-        margin-right: auto;
-        font-size: 1.1rem;
-        margin-top: 20px;
-    }
+.styleBreadcrumb ol{
+    background-color: transparent;
+    justify-content: center;
+}
+
+.styleBreadcrumb ol li {
+    height: 12px;
+    color: #45413e;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.styleBreadcrumb ol li a {
+    color: #85c441;
 }

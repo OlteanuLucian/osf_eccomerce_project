@@ -14,7 +14,7 @@ class Filter extends React.Component{
         return(
             <div>
                 <div className="aaa">
-                        <button className="handleChange" onClick={HandleChange}>{x?'Hide Filter':"Show Filter"}</button>
+                        <button className="handleChange" onClick={HandleChange}>{x?'Filter':"Filter"}</button>
                         {
                             x&&(
                                 <div className="filter">
