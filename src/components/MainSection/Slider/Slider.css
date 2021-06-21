@@ -1,29 +1,35 @@
-.main{
+/* .main{
     width: 100%;
     margin: 0;
     padding: 0;
+} */
+.colBg {
+    margin: 0 auto;
 }
-.firstDiv{
+/* .firstDiv{
     height: 472px;
     margin: 20px 13px 22px 16px;
     background-color: white;
     overflow:hidden;
-    border-radius: 7px;
-}
+    border-radius: 7px; 
+    margin-top:25px;
+    margin-bottom: 20px;
+} */
+/* 
 .w-100{
     width: none!important;
-}
-.firstDiv .firstImage{
+} */
+/* .firstDiv .firstImage{
     height: 472px;
     border-radius: 3px;
     object-fit: none;
     object-position: right;
-}
+} */
 .carousel-control-prev-icon, .carousel-control-next-icon{
     display: none;
 }
 .carousel-indicators{
-    margin-bottom: 19px;
+    margin-bottom: 5px;
 }
 .carousel-indicators li {
     height: 9px;
@@ -46,7 +52,7 @@
     margin: 0;
     margin-top: 6px;
 }
-.carousel-caption{
+/* .carousel-caption{
     right: 0;
     left: 0;
     bottom: 0;
@@ -71,29 +77,90 @@
     text-align: left;
     padding-bottom: 140px;
     line-height: 17px; 
-}
-.carousel-indicators .active{
+} */
+/* .carousel-indicators .active{
     margin-bottom: -20px;
-}
-.btn-primary:not(:disabled):not(.disabled):active{
+} */
+/* .btn-primary:not(:disabled):not(.disabled):active{
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
 }
 .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus{
     box-shadow: 0 0 0 .2rem rgba(38, 143, 255, 0);
+} */
+/* .buttonView{
+    width: 100%;
+    margin-top: -15px;
+} */
+
+.imgBg {
+	height: 505px;
+	width: 870px;
 }
+
+.title{
+    color: #ffffff;
+	font-size: 36px;
+	font-weight: 700;
+	width: 80%;
+    }   
+    .content{
+    color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 10%;
+    padding-bottom: 5%;
+	width: 50%;
+    }
+
 .buttonView{
     width: 100%;
     margin-top: -15px;
 }
-.buttonView .viewMoreButton{
+.viewMoreButton{
     border: 2px solid rgb(138,139,142);
     border-radius: 25px;
     background-color: rgba(255, 255, 255, 0);
     color: white;
     font-weight: 300;
-    padding: 5px 30px;
+    padding: 15px 35px;
 }
+.leftCarousel {
+    text-align: left;
+}
+
+.btnLeft {
+    float:left;
+}
+
+.middleCarousel {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btnViewMiddle {
+    margin-top: 5%;
+    float: initial;
+}
+
+.rightCarousel {
+    float: right;
+    text-align: right;
+}
+
+.btnRight {
+    float: right;
+    clear: right;
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (min-width: 900px) {
     .firstDiv{
         width: 870px;
@@ -113,39 +180,27 @@
         object-fit: none;
         object-position: right;
     }
-    .carousel-caption{
-        right: 0;
-        left: 0;
-        bottom: 0;
-        top: 0;
-        margin: 80px 251px 102px 63px;
-        padding: 0;  
-    }
-    .carousel-caption .title{
-        font-size: 3rem;
-        font-weight: 700;
-        margin: 0;
-        text-align: left;
-        line-height: 39px;
-        padding-bottom: 114px;
-        padding-left: 0;
-        padding-right: 0;
+   
+    .title{
+    color: #ffffff;
+	font-size: 48px;
+	font-weight: 700;
+	width: 80%;
     }   
-    .carousel-caption .content{
-        font-size: .9rem;
-        font-weight: 500;
-        margin: 0;
-        text-align: left;
-        padding-bottom: 46px;
-        line-height: 17px;
-        padding-right: 221px; 
+    .content{
+    color: #ffffff;
+	font-size: 14px;
+	font-weight: 400;
+	padding-top: 10%;
+    padding-bottom: 5%;
+	width: 50%;
     }
-    .buttonView{
+    /* .buttonView{
         width: 100%;
         margin-top: 0;
         text-align: left;  
-    }
-    .buttonView .viewMoreButton{
+    } */
+    .viewMoreButton{
         border: 2px solid rgb(138,139,142);
         border-radius: 25px;
         background-color: rgba(255, 255, 255, 0);
@@ -154,6 +209,34 @@
         padding: 15px 35px;
     }
     .carousel-indicators{
-        margin-bottom: 40px;
+        margin-bottom: 10px;
+    }
+
+    .leftCarousel {
+        text-align: left;
+    }
+    
+    .btnLeft {
+        float:left;
+    }
+    
+    .middleCarousel {
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .btnViewMiddle {
+        margin-top: 5%;
+        float: initial;
+    }
+    
+    .rightCarousel {
+        float: right;
+        text-align: right;
+    }
+    
+    .btnRight {
+        float: right;
+        clear: right;
     }
 }

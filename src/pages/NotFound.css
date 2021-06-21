@@ -12,20 +12,24 @@
 .entirePageDesktop{
     display: none;
 }
+
 @media only screen and (min-width: 900px) {
     .entirePageMobile {
       display: none;
     }
     .entirePageDesktop{
-        display: inherit;
+        display: block;
+        max-width: 1140px;
+        margin: auto;
     }
     .entirePageDesktop .firstRow{
         position: fixed;
         background-color: rgba(222, 184, 135, 0.57);
-        width: 100%;
+        max-width: 1140px;
         height: 80px;
         border-bottom: 2px solid rgb(243,240,234);
         z-index:1000;
+        margin: auto;
     }
     .entirePageDesktop .secondRow{
         display: flex;
@@ -34,12 +38,15 @@
         padding-top: 106px;
         z-index: 29;
         background-color: rgb(241,237,234);
+        margin:auto;
+        max-width: 1140px;
     }
     .entirePageDesktop .thirdRow{
         background-color: rgb(241,237,234);
         padding-top: 0;
         padding-left: 56px;
         padding-right: 56px;
+        height: auto;
     }
     .entirePageDesktop .theFifthRow{
         padding-left: 56px;

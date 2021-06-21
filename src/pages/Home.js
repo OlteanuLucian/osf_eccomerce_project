@@ -35,7 +35,7 @@ function Home (){
   return (
     <div>
      
-     <div className="entirePageMobile">
+     <div className="entirePageMobileHP">
        
        {/* cookies to be inserted */}
         <div className="navigationMenu">
@@ -56,7 +56,7 @@ function Home (){
         </div>
       </div>
 
-      <div className="entirePageDesktop">
+      <div className="entirePageDesktopHP">
         {/* cookies */}
         {/* <Cookies trigger={buttonCookies} setTrigger={setButtonCookies}></Cookies>
         <Cookies trigger={timedCookies} setTrigger={setTimedCookies}></Cookies>

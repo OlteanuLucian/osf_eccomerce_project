@@ -81,7 +81,7 @@
     z-index: -2;
 }
 
-@media only scree and (min-width: 900px) {
+@media only screen and (min-width: 900px) {
     .titlePDP .breadcrumbPDP {
         width: 32%;
         font-size: 1.2rem;
@@ -95,7 +95,7 @@
         padding-right: 50px;
     }
 
-    .titleArticle .linePDP .popularItemPDP::before {
+    .titleArticle .linePDP .popularItemPDP:before {
         content: "";
         display: block;
         width: 100%;
@@ -107,7 +107,7 @@
         z-index: -2;
     }
 
-    .titleArticle .linePDP .popularItemPDP::after {
+    .titleArticle .linePDP .popularItemPDP:after {
         content: "";
         display: block;
         width: 100%;

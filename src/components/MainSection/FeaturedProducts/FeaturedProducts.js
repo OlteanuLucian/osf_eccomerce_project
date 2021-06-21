@@ -83,11 +83,11 @@ class FeaturedProducts extends Component {
         ] 
         return (
             <div className = "productsFP">
-                <Container className = "featuredProductsContainer">
-                    <Row>
+                <Row className = "featuredProductsContainer">
+                    <Row className = "firstRowFP">
                         <Col>
-                            <h1 className="titleFTPC">Featured Products</h1>
-                            <p className="detailsFTPC">Unde omnis iste natus error sit voluptatem</p>
+                            <h1 className="titleFP">Featured Products</h1>
+                            <p className="detailsFP">Unde omnis iste natus error sit voluptatem</p>
 
                             <div className="border">
                                 <img src = {Icon} alt=""/>
@@ -127,7 +127,7 @@ class FeaturedProducts extends Component {
                         </Col>
                     </Row>
                     
-                </Container>
+                </Row>
             </div>
         );
     }

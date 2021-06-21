@@ -72,7 +72,7 @@ function NavbarMenuDesktop() {
                         <div className="dropdownImageDesktop">
                             <div className="imgDropDownContainer" >
                                 <img className="imgDropDownDesktop" 
-                                src={DropdownImg} fluid sticky = "none" alt="girl at shopping" />
+                                src={DropdownImg}  alt="girl at shopping" />
                             </div>
                         </div>
 

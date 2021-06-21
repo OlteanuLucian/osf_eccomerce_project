@@ -1,10 +1,20 @@
 @media only screen and (min-width: 900px) {
+
+    
+    .productsFP {
+        background-color: #262a32;
+    }
     .featuredProductsContainer {
         background-color: #262a32;
         padding: 40px 50px 60px 50px;
     }
 
-    .titleFTPC {
+    .firstRowFP { 
+        height: auto;
+
+    }
+
+    .titleFP {
 	    color: #ffffff;
 	    font-size: 36px;
 	    font-weight: 400;
@@ -14,7 +24,7 @@
 	    text-align: center;
     }
 
-    .detailsFTPC {
+    .detailsFP {
         color:#ffffff;
         font-size: 18px;
 	    font-weight: 400;
@@ -56,6 +66,7 @@
     .colFP {
         padding: 0;
         border: none;
+        margin-top: 30px;
     }
 
     .slick-slide div {

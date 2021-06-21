@@ -12,6 +12,8 @@
 .entirePageDesktop{
     display: none;
 }
+
+
 @media only screen and (min-width: 900px) {
     .entirePageMobile {
       display: none;
@@ -40,7 +42,7 @@
         padding-top: 0;
         padding-left: 56px;
         padding-right: 56px;
-        height: 870px;
+        height: auto;
     }
     .entirePageDesktop .theFifthRow{
         background-color: rgb(38,42,50);
