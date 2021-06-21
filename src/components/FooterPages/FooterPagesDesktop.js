@@ -10,10 +10,11 @@ import Pinterest from '../Img/Socialicons/pinterestIco.png';
 import HourGlass from '../Img/hourglass.png';
 
 function FooterPagesDesktop() {
+    const currentYear= new Date().getFullYear();
     return(
         <div className="footerDetailsDesktop"> 
             <div className="copyRight">
-                <p className="text">&copy;Copyright2019.<br />All rights reserved.</p>
+                <p className="text">&copy;Copyright{currentYear}.<br />All rights reserved.</p>
             </div>
             <div className="detailsContact">
             <p className="textDetailsB">CONTACT</p>

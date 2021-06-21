@@ -10,11 +10,13 @@ import Twitter from '../Img/Socialicons/twitterIco.png';
 import Pinterest from '../Img/Socialicons/pinterestIco.png';
 import Caret from '../Img/caret.png';
 
+
 function FooterPages() {
+    const currentYear= new Date().getFullYear();
     return(
         <div className="footerDetails"> 
             <div className="copyRight">
-                <p>&copy;Copyright2019.<br />All rights reserved.</p>
+                <p>&copy;Copyright{currentYear}.<br />All rights reserved.</p>
             </div>
 
             <Accordion defaultActiveKey="0">
