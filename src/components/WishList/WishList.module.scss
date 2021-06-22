@@ -1,0 +1,19 @@
+.quantity {
+    border: 2px solid #84bc22;
+    background-color: #ffffff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: relative;
+    bottom: 30px;
+    left: 13px;
+        
+        span {
+            color: #84bc22;
+            font-size: 12px;
+            width: 6px;
+            height: 8px;
+            position: relative;
+            bottom: 11px;
+        }
+}

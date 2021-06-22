@@ -1,0 +1,80 @@
+
+
+.logoText {
+	width: 73px;
+	height: 25px;
+	color: #011847;
+	font-size: 32px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 6.33px;
+}
+
+.logoTextSub {
+	width: 74px;
+	height: 17px;
+	color: #84bc22;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.nav {
+	color: #45413e;
+	font-size: 14px;
+	font-weight: 600;
+	border-bottom: none;
+}
+
+.navDropdown {
+	a{
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+	}
+}
+
+.navText {
+	color: #45413e !important;
+}
+
+.navIcons {
+	font-size: larger;
+	margin-left: 20px;
+}
+
+.navImg {
+	padding-top: 10%;
+}
+
+.navContainer {
+	position: static;
+	min-width: 1110px;
+	background-color: #262a32;
+}
+
+.container {
+	border-bottom: 3px solid #F3F0EA;
+}
+
+.row {
+	padding: 4% 0 4% 5%;
+	background-color: #262a32;
+
+}
+
+.col {
+	a  {
+		color: #ffffff;
+
+		&:hover {
+			color: #ffffff;
+		}
+	}
+}
+
+.dropdownItem {
+	&:hover {
+		background-color: transparent;
+	}
+}
+
+

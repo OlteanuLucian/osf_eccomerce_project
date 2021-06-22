@@ -1,0 +1,97 @@
+@import "~bootstrap/scss/bootstrap";
+
+.carousel-indicators li {
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	margin-right: 15px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.carousel-indicators .active {
+	background-color: transparent;
+	border: 3px solid #ffffff;
+	margin-top: 7px;
+}
+
+.carousel-caption {
+	left: 5%;
+	right: 5%;
+	top: 10%;
+}
+
+.card {
+	border: none;
+}
+
+.navbar-light .navbar-nav .nav-link .header__nav {
+	color: #45413e;
+}
+
+.dropdown-menu {
+	padding: 0;
+	border: none;
+}
+
+.col {
+	padding: 0;
+	margin: 0;
+}
+
+.navbar {
+	padding-bottom: 0;
+}
+
+.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .nav-link.active .header__services {
+	background-color: #262a32;
+	color: #ffffff;
+	height: 250%;
+}
+
+.dropdown-header {
+	background-color: #262a32;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.dropdown-item {
+	background-color: #262a32;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+	background-color: #262A33;
+	color: #ffffff;
+	}
+
+.nav-tabs .nav-link {
+	border-bottom: none;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+.nav-link {
+	padding: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: inherit
+}
+
+@media (min-width: 769px) {
+	.card-columns {
+		column-count: 4;
+	}
+}
+

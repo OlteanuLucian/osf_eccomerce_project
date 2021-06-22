@@ -1,0 +1,46 @@
+
+.tab {
+    background-color: #262A33;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 24px;
+    text-align: left;
+    padding: 70px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+.tabs a {
+    padding: 20px;
+}
+
+.container {
+    margin-top: 80px;
+}
+
+.col {
+    nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+
+             a {
+                color: #bdc3c7;
+                font-family: "Lato - Bold";
+                font-size: 24px;
+                font-weight: 400;
+                font-style: normal;
+                letter-spacing: normal;
+                line-height: normal;
+                text-align: center;
+                }
+
+               
+    }
+}

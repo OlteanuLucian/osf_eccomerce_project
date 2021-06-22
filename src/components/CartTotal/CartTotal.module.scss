@@ -1,0 +1,105 @@
+
+.container {
+    padding-top: 75px;
+    border-top: 2px solid #e8e2d6;
+}
+
+.coupon, .btnWhite, .btnGreen, .subTotal, .total, .radio {
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.coupon, .btnWhite, .btnGreen, .subTotal, .radio {
+    font-family: 'Lato';
+}
+
+.price, .total, .mainPrice {
+    font-family: "Lato - Bold";
+}
+
+.coupon {
+    border: 2px solid #e8e2d6;
+    border-radius: 40px;
+    color: #45413e;
+    text-align: left;
+    width: 220px;
+    margin-left: 20px;
+}
+
+.btnWhite {
+    border: 2px solid #84bc22;
+    background-color: transparent;
+    border-radius: 40px;
+    color: #84bc22;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 35px;
+
+     &:hover {
+        background-color: #84bc22;
+        color: white;
+     } 
+}
+
+.btnGreen {
+    border: 2px solid #84bc22;
+    background-color: #84bc22;
+    border-radius: 40px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 8px 15px;
+    margin-right: 50px;
+    width: 265px;
+
+     &:hover {
+        background-color: transparent;
+        color: #84bc22;
+     } 
+}
+
+.subTotal {
+    color: #45413e;
+    text-transform: uppercase;
+}
+
+.total {
+    color: #45413e;
+    text-transform: uppercase;
+}
+
+.row {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.mainPrice {
+    color: #45413e;
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.lastRow {
+    padding-top: 30px;
+}
+
+.form {
+    margin-left: 20px;
+}
+
+.apply {
+    margin-right: 80px;
+}
+
+.updateCart {
+    margin-left: 20px;
+}
+

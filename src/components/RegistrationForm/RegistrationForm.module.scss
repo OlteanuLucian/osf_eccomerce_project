@@ -1,0 +1,135 @@
+
+.mainTitle {
+    color: #45413e;
+    font-family: "Lato - Bold";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.formControl {
+    border-radius: 40px;
+    border: 2px solid #d7d7d7;
+    width: 85%;
+    margin: 0 auto;
+
+    &:focus {
+    border: 2px solid #d7d7d7;
+    box-shadow: none;
+    }
+}
+
+.inputGroup {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.inputGroupText {
+    background-color: transparent;
+    border-radius: 40px;
+    border: 2px solid #d7d7d7;
+    border-left: none;
+
+    &:focus {
+        border-left: none;
+        }
+}
+
+.pass {
+    border-right: none;
+
+    &:focus {
+        border-right: none;
+        }
+}
+
+.formLabel {
+    color: #45413e;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 26px;
+    text-align: left;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+
+    .col {
+        padding-top: 17px;
+    }
+
+    .col1 {
+        padding-top: 7px;
+        margin-bottom: -15px;
+    }
+}
+
+.btn {
+    border: 2px solid #84bc22;
+    background-color: #84bc22;
+    border-radius: 40px;
+    padding: 10px 70px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    text-transform: uppercase;
+
+    &:focus, &:active, &:hover   {
+        background-color: #79AD1F !important;
+        border: 2px solid #79AD1F !important; 
+        box-shadow: none !important;
+    }
+
+}
+
+.link {
+    color: #84bc22;
+    font-family: 'Lato';
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 43px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    display: flex;
+    justify-content: center;
+
+    &:hover {
+        color: #84bc22;
+    }
+}
+
+.btnDiv {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.btnUser {
+    background-color: transparent;
+    border: none;
+    color: inherit;
+    font-size: 20px;
+    position: relative;
+    bottom: 8px;
+
+    &:focus, &:active, &:hover   {
+        color: #4C4C4C !important;
+        background-color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}

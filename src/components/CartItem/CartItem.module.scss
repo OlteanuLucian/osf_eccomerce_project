@@ -1,0 +1,105 @@
+
+
+.div {
+    padding: 20px 0 15px 0;
+}
+
+.title {
+    color: #45413e;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 18px;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.img {
+    margin-left: 40px;
+}
+
+.smPrice {
+    color: #bdc3c7;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.bigPrice {
+    color: #45413e;
+    font-family: "Lato - Bold";
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.btn {
+    width: 25px;
+    height: 25px;
+    border: 2px solid #e8e2d6;
+    border-radius: 50%;
+    margin-top: 32px;
+    margin-right: 40px;
+    background-color: transparent;
+
+    p {
+        color: #45413e;
+        opacity: 0.5;
+        font-size: small;
+    }
+}
+
+.inputGroup {
+    margin: 25px 0 40px 0;
+    width: 110px;
+    color: #45413e;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.minus, .plus {
+    border: 2px solid #e8e2d6;
+    background-color: transparent;
+    border-radius: 42px;
+    cursor: pointer;
+    color: #999999;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+}
+
+.minus {
+    border-right: none;
+}
+
+.plus {
+    border-left: none;
+}
+
+.formControl {
+    border: 2px solid #e8e2d6;
+    background-color: transparent;
+    border-right: none;
+    border-left: none;
+    height: 40px;
+}
+

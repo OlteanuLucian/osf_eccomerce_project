@@ -1,0 +1,152 @@
+
+.container {
+    background-color: #f2edea;
+    padding: 3%;
+    padding-top: 1%;
+}
+
+.breadcrumb {
+
+    ol {
+        background-color: transparent;
+        justify-content: center;
+
+        li {
+            height: 12px;
+            color: #45413e;
+            font-family: 'Lato';
+            font-size: 15px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        
+                a {
+                    color: #85c441;
+                }
+        }
+    }
+}
+
+.mainTitle {
+    color: #45413e;
+    font-family: "Lato - Bold";
+    font-size: 48px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    padding-bottom: 2%;
+    position: relative;
+	overflow: hidden;
+    margin: 0 auto;
+    width: 100%;
+
+	&:before,
+	&:after {
+		content: "";
+		display: inline-block;
+		width: 80%;
+		margin: 0 .5em 0 -55%;
+		vertical-align: middle;
+        border-bottom: 2px solid;
+        color: #ffffff;;
+	}
+	&:after {
+		margin: 0 -55% 0 .5em;
+	}
+}
+
+.col {
+    padding-right: 15%;
+}
+
+.results {
+    color: #45413e;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 30px;
+
+    .resultNum {
+        font-size: 16px;
+        text-decoration: solid;
+        font-family: 'Lato - Bold';
+    }
+}
+
+.btn {
+    border-radius: 40px;
+    border: 2px solid #d9d9d9;
+    background-color: #84bc22;
+    padding: 13px 40px;
+    color: #ffffff;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 60px;
+}
+
+@media (min-width: 481px) {
+    .cardColumns {
+        -webkit-column-count: 4;
+        -moz-column-count: 4;
+        column-count: 4;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .mainTitle {
+        &:before,
+		&:after {
+			width: 20%;
+		}
+    }
+
+    .cardColumns {
+        margin: 0 10%;
+    }
+
+    .btn {
+        margin: 30px 0;
+    }
+
+    .cardHeader {
+        background-color:  #f2edea;
+        border: none;
+        padding-bottom: 0;
+
+        button {
+            background-color: transparent;
+            border: none;
+            color: #8dc73e;
+            font-family: 'Lato';
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+            line-height: normal;
+            text-align: center;
+        }
+    }
+
+    .card {
+        background-color:  #f2edea;
+    }
+
+    .cardBody {
+        padding-bottom: 0;
+    }
+
+}

@@ -1,0 +1,141 @@
+
+.bg {
+	background-color: #262a32;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.mainTitle {
+	color: #ffffff;
+	font-family: "Lato - Bold";
+	font-size: 24px;
+	font-weight: 400;
+	padding-top: 90px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+
+	&:before,
+	&:after {
+		content: "";
+		display: inline-block;
+		width: 80%;
+		margin: 0 .5em 0 -55%;
+		vertical-align: middle;
+		border-bottom: 2px solid;
+		opacity: 0.1;
+	}
+	&:after {
+		margin: 0 -55% 0 .5em;
+	}
+}
+
+.firstRow {
+	margin-top: 40px;
+}
+
+.height {
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.btn {
+	background-color: transparent;
+	border-radius: 42px;
+	border: 2px solid #e8e2d6;
+	color: #ffffff;
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	padding: 13px 90px;
+	margin-top: 50px;
+	margin-bottom: 60px;
+
+	&:hover {
+		background-color: #e8e2d6;
+		color: #45413e;
+	}
+
+	.undo {
+		margin-left: 20px;
+	}
+}
+
+.cardTitle {
+	color: #2c3e50;
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+
+	a {
+		color: #2c3e50;
+		text-decoration: none;
+	}
+}
+
+.cardPrice {
+	color: #011847;
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.cardImg {
+	background-color: #262a32;
+}
+
+.imgDragon {
+	height: 383px;
+}
+
+.imgText {
+	color: #ffffff;
+	font-family: 'Lato';
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+	width: 70%;
+	padding-top: 105%;
+}
+
+.imgTime {
+	color: #ffffff;
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.imgIcon {
+	margin-right: 10px;
+}
+
+.cardBtn {
+	background-color: transparent;
+	border-radius: 42px;
+	border: 2px solid #868380;
+	padding: 13px 20px;
+}
+
+.cardBtnPrice {
+	color: #24c36c;
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 400;
+	margin-right: 18px;
+}
+
+.cardBtnText {
+	color: #000000;
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	border-left: 2px solid #868380;
+	padding-left: 18px;
+}
+

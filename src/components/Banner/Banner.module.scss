@@ -1,0 +1,36 @@
+
+
+.bg {
+	position: relative;
+	background: url("/img/bg.png") no-repeat center center;
+	height: 100%;
+}
+
+.mainText {
+	color: #ffffff;
+	font-family: "Lato - Bold";
+	font-size: 48px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	padding-top: 13%;
+	margin-bottom: 40px;
+}
+
+.subText {
+	color: #ffffff;
+	font-family: 'Lato';
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	padding-bottom: 13%;
+	width: 30%;
+	margin: 0 auto;
+}
+
+

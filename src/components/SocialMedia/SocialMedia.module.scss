@@ -1,0 +1,19 @@
+.icons {
+
+	a {
+		opacity: 0.7;
+	color: #45413e;
+	}
+}
+
+.icon {
+	margin-right: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+  .icons {
+      font-size: 20px;
+  }
+  
+}

@@ -1,0 +1,61 @@
+
+
+.bg {
+	background-color: #45413e;
+	padding: 50px 40px 50px 70px;
+}
+
+.mainText {
+	color: #ffffff;
+	font-family: 'Lato';
+	font-size: 18px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 24px;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.subText {
+	color: #868380;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-align: left;
+	width: 90%;
+}
+
+.img {
+	float: left;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	.bg {
+		padding: 50px 20px 50px 20px;
+	}
+
+	.right {
+		float: right;
+	}
+
+	.subText {
+		width: 100%;
+	}
+
+	.img {
+		margin: 0 40px 30px 40px;
+	}
+
+	.row {
+		margin-top: 10%;
+	}
+
+}

@@ -1,0 +1,170 @@
+ [
+	{	
+		"id": 1,
+		"title": "Kristina Dam Oak Table With White Marble Top",
+		"price": 799.55,
+		"cardImg": "/img/popularItems/item1.png",
+		"count": 1
+	},
+	{
+		"id": 2,
+		"title": "Activate Facial Mask and Charcoal Soap",
+		"price": 129.55,
+		"cardImg": "/img/popularItems/item3.png",
+		"count": 1
+	},
+	{
+		"id": 3,
+		"title": "Cocktail Table Walnut | YES",
+		"price": 299.99,
+		"cardImg": "/img/popularItems/item4.png",
+		"count": 1
+	},
+	{
+		"id": 4,
+		"title": "Hay - About A Lounge Chair AAL 93",
+		"price": 659.55,
+		"cardImg": "/img/popularItems/item5.png",
+		"count": 1
+	},
+	{
+		"id": 6,
+		"title": "TORY DESK CALENDAR",
+		"price": 410.99,
+		"cardImg": "/img/popularItems/item6.png",
+		"count": 1
+	},
+	{
+		"id": 7,
+		"title": "CH445 Wing Chair on SUITE NY",
+		"price": 330.55,
+		"cardImg": "/img/popularItems/item7.png",
+		"count": 1
+    },
+    {
+		"id": 8,
+		"title": "Kristina Dam Oak Table With White Marble Top",
+		"price": 799.55,
+		"cardImg": "/img/popularItems/item1.png",
+		"count": 1
+	},
+	{
+		"id": 9,
+		"title": "Activate Facial Mask and Charcoal Soap",
+		"price": 129.55,
+		"cardImg": "/img/popularItems/item3.png",
+		"count": 1
+    },
+    {
+		"id": 10,
+		"title": "Kristina Dam Oak Table With White Marble Top",
+		"price": 799.55,
+		"cardImg": "/img/popularItems/item3.png",
+		"count": 1
+	},
+	{
+		"id": 11,
+		"title": "EAMES x Cast + Crew - Custom Powder Coated",
+		"price": 799.55,
+		"cardImg": "/img/popularItems/item1.png",
+		"count": 1
+	},
+	{
+		"id": 12,
+		"title": "Activate Facial Mask and Charcoal Soap",
+		"price": 129.55,
+		"cardImg": "/img/popularItems/item12.png",
+		"count": 1
+	},
+	{
+		"id": 13,
+		"title": "Vitra Cork Stool B, Cork - Design Within Reach",
+		"price": 299.99,
+		"cardImg": "/img/popularItems/item9.png",
+		"count": 1
+	},
+	{
+		"id": 14,
+		"title": "Hay - About A Lounge Chair AAL 93",
+		"price": 659.55,
+		"cardImg": "/img/popularItems/item6.png",
+		"count": 1
+	},
+	{
+		"id": 15,
+		"title": "TORY DESK CALENDAR",
+		"price": 410.99,
+		"cardImg": "/img/popularItems/item5.png",
+		"count": 1
+	},
+	{
+		"id": 16,
+		"title": "Kristina Dam Oak Table With White Marble Top",
+		"price": 330.55,
+		"cardImg": "/img/popularItems/item10.png",
+		"count": 1
+	},
+	{
+		"id": 17,
+		"title": "CH445 Wing Chair on SUITE NY",
+		"price": 330.55,
+		"cardImg": "/img/popularItems/item10.png",
+		"count": 1
+	},
+	{
+		"id": 18,
+		"title": "Kristina Dam Oak Table With White Marble Top",
+		"price": 2195.00,
+		"cardImg": "/img/popularItems/item10.png",
+		"count": 1
+	},
+	{
+		"id": 19,
+		"title": "MONOQI | Ø55 Crossit Table - Wht/Grn",
+		"price": 299.99,
+		"cardImg": "/img/popularItems/item10.png",
+		"count": 1
+	},
+	{
+		"id": 20,
+		"title": "Kristina Dam Oak Table With White Marble Top",
+		"price": 659.55,
+		"cardImg": "/img/popularItems/item6.png",
+		"count": 1
+	},
+	{
+		"id": 21,
+		"title": "Vitra Cork Stool B, Cork - Design Within Reach",
+		"price": 870.95,
+		"cardImg": "/img/popularItems/item6.png",
+		"count": 1
+	},
+	{
+		"id": 22,
+		"title": "Hay - About A Lounge Chair AAL 93",
+		"price": 659.55,
+		"cardImg": "/img/popularItems/item10.png",
+		"count": 1
+	},
+	{
+		"id": 23,
+		"title": "TORY DESK CALENDAR",
+		"price": 410.99,
+		"cardImg": "/img/popularItems/item7.png",
+		"count": 1
+	},
+	{
+		"id": 24,
+		"title": "EAMES x Cast + Crew - Custom Powder Coated",
+		"price": 330.55,
+		"cardImg": "/img/popularItems/item11.png",
+		"count": 1
+	},
+	{
+		"id": 25,
+		"title": "CH445 Wing Chair on SUITE NY",
+		"price": 330.55,
+		"cardImg": "/img/popularItems/item10.png",
+		"count": 1
+	}
+]

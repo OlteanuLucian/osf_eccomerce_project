@@ -1,0 +1,60 @@
+
+
+.container {
+	padding: 40px 20px 10px 20px;
+}
+
+.contactText, .link a {
+	color: #45413e;
+	font-family: 'Lato';
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 18px;
+	text-align: left;
+
+	a {
+		color: #45413e;
+
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
+
+.contactTitle {
+	color: #333333;
+	font-family: 'Lato';
+	font-size: 13px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.footTitle {
+	color: #333333;
+	font-family: 'Lato';
+	font-size: 13px;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
+}
+
+.footItem {
+	opacity: 0.7;
+	color: #45413e;
+	font-family: Lato;
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 31px;
+	text-align: left;
+}
