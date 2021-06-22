@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCaretUp, faCaretDown } from '@fortawesome/free-solid-svg-icons';
 import Navbar from 'react-bootstrap/Navbar';
+import Hamburger from 'hamburger-react';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Container from 'react-bootstrap/Container';
@@ -67,7 +68,9 @@ const Header = () => {
 		<header>
 			<Container className={styles.container}>
 				<Navbar collapseOnSelect expand="lg" className={styles.navbarSm}>
-					<Navbar.Toggle aria-controls="responsive-navbar-nav" />
+					<Navbar.Toggle aria-controls="responsive-navbar-nav">
+						<Hamburger></Hamburger>
+					</Navbar.Toggle>
 					<Navbar.Brand href="#" className={styles.brand}>
 						<Link to="/">
 							<img src="./img/header/logo.png" className="d-inline-block align-top mr-2" alt="OSF logo" />
@@ -145,9 +148,6 @@ const Header = () => {
 											<FontAwesomeIcon icon={faCaretDown} />
 										</span>
 									</Accordion.Toggle>
-									<Accordion.Collapse eventKey="1">
-										<Card.Body className={styles.cardBody}>a</Card.Body>
-									</Accordion.Collapse>
 								</Card>
 
 								<Card>
@@ -157,9 +157,6 @@ const Header = () => {
 											<FontAwesomeIcon icon={faCaretDown} />
 										</span>
 									</Accordion.Toggle>
-									<Accordion.Collapse eventKey="2">
-										<Card.Body className={styles.cardBody}>a</Card.Body>
-									</Accordion.Collapse>
 								</Card>
 
 								<Card>
@@ -169,9 +166,6 @@ const Header = () => {
 											<FontAwesomeIcon icon={faCaretDown} />
 										</span>
 									</Accordion.Toggle>
-									<Accordion.Collapse eventKey="3">
-										<Card.Body className={styles.cardBody}>a</Card.Body>
-									</Accordion.Collapse>
 								</Card>
 							</Accordion>{' '}
 							<img src="/img/header/nav_img.png" rounded className={styles.img} />

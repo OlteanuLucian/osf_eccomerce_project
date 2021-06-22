@@ -33,4 +33,13 @@
 	margin: 0 auto;
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+	.mainText {
+		font-size: 30px;
+	}
+
+	.subText {
+		width: 90%;
+	}
+}
 
