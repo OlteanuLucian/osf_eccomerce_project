@@ -1,56 +1,34 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import './App.scss';
+import './assets/globalStyles/style.scss';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import Header from './components//Header';
+import Sales from './components//Sales';
+import PopularItems from './components//PopularItems';
+import Banner from './components//Banner';
+import FeaturedProducts from './components//FeaturedProducts';
+import Services from './components//Services';
+import Footer from './components//Footer';
 
-import { BrowserRouter as Router, Route, Redirect, Switch } from 'react-router-dom';
-
-import Home from "./pages/Home.js";
-import NotFoundPage from "./pages/NotFound.js";
-import CategoryLandingServices from "./pages/CategoryLandingServices.js"
-import ShoppingCart from './pages/ShoppingCart.js';
-import ProductDetailedPage from './pages/ProductDetailedPage.js';
+library.add(fab);
 
 function App() {
+	useEffect(() => {
+		document.title = 'eCommerce';
+	}, []);
 
-  // const code = 404;
-  // const MyContext = React.createContext(defaultValue);
-
-
-  return (
-      
-      <Router>
-        
-          {/* {code === 200 && (<Redirect to = "/Home" />)}
-          {code === 404 && (<Redirect to = "/404" />)} */}
-
-        <Switch>
-
-          <Route exact path = "/Home">
-              <Home/>
-          </Route>
-
-          <Route exact path="/404">
-            <NotFoundPage />
-          </Route>
-          
-          <Route exact path ="/CategoryLandingServices">
-            <CategoryLandingServices />
-          </Route>
-
-          <Route exact path ="/ShoppingCart">
-            <ShoppingCart />
-          </Route>
-          
-          <Route exact path ="/ProductDetailedPage">
-            <ProductDetailedPage />
-          </Route>
-
-
-
-
-          <Redirect to="/Home" />
-        </Switch>        
-
-      </Router>
-  );
+	return (
+		<div className="App">
+			<Header />
+			<Sales />
+			<PopularItems />
+			<Banner />
+			<FeaturedProducts />
+			<Services />
+			<Footer />
+		</div>
+	);
 }
 
 export default App;
