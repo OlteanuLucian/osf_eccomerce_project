@@ -15,7 +15,7 @@ library.add(fab);
 
 function App() {
 	useEffect(() => {
-		document.title = 'eCommerce';
+		document.title = 'OSF Academy_Lucian Olteanu';
 	}, []);
 
 	return (

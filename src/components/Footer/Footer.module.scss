@@ -1,5 +1,3 @@
-
-
 .container {
 	padding: 40px 20px 10px 20px;
 }
@@ -57,4 +55,37 @@
 	letter-spacing: normal;
 	line-height: 31px;
 	text-align: left;
+}
+
+
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.cardHeader {
+		background-color: #ffffff;
+		border: none;
+		display: flex;
+		flex-direction: row;
+
+		.contactTitle {
+			width: 80vw;
+		}
+	}
+
+	.contactText {
+		text-align: center;
+	}
+	
+	.copyright {
+		padding-left: 20px;
+	}
+
+	.cardBody {
+		text-align: left;
+		padding-top: 0;
+		padding-bottom: 10px;
+	}
+	.container {
+		padding-top: 20px;
+	}
 }

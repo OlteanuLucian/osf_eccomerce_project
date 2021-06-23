@@ -61,6 +61,8 @@ const PopularItems = () => {
 				<Row className={cx('d-none d-md-block', styles.firstRow)}>
 					<Col>
 						<CardColumns>
+							
+
 							<Card>
 								<Card.Img className={styles.cardImg} variant="top" src="/img/popularItems/item2.png" />
 								<Card.Body>
@@ -75,7 +77,7 @@ const PopularItems = () => {
 									</Card.Text>
 								</Card.Body>
 							</Card>
-
+							
 							<Items itemsToRender={items.slice(0, 6)} />
 
 							<Card className={styles.cardBody}>
@@ -100,6 +102,7 @@ const PopularItems = () => {
 						</CardColumns>
 					</Col>
 				</Row>
+				
 				<Row className="d-none d-md-block">
 					<Col>
 						<CardColumns>

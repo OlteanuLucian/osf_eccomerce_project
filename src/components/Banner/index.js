@@ -12,7 +12,7 @@ const Banner = () => {
 					<Col>
 						<h1 className={styles.mainText}>Banner OSF Theme</h1>
 						<p className={styles.subText}>
-							Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium{' '}
+							Sed ut perspiciatis unde omnis iste natus error sit volup-tatem accusantium{' '}
 						</p>
 					</Col>
 				</Row>

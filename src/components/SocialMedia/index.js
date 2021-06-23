@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
+
 const SocialMedia = () => {
 	return (
 		<Row className={styles.icons}>
@@ -22,6 +23,7 @@ const SocialMedia = () => {
 				</a>
 			</Col>
 		</Row>
+		
 	);
 };
 

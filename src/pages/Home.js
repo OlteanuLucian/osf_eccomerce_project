@@ -9,7 +9,7 @@ import Services from '../components//Services';
 
 export const Home = () => {
 	useEffect(() => {
-		document.title = 'eCommerce';
+		document.title = 'OSF Academy_Lucian Olteanu';
 	}, []);
 
 	return (

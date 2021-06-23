@@ -24,7 +24,7 @@ const Arrow = ({ clicked, onClick }) => {
 const Arrow1 = ({ clicked1, onClick }) => {
 	return (
 		<div onClick={onClick} className={styles.cardHeader}>
-			<h2 className={styles.contactTitle}>Categoriest</h2>
+			<h2 className={styles.contactTitle}>Categories</h2>
 			<span>
 				<FontAwesomeIcon icon={clicked1 ? faCaretUp : faCaretDown} />
 			</span>
@@ -43,7 +43,7 @@ const Arrow2 = ({ clicked2, onClick }) => {
 	);
 };
 
-const categoriest = [
+const categories = [
 	{ title: 'Alcohol' },
 	{ title: 'Art' },
 	{ title: 'Books' },
@@ -65,9 +65,9 @@ const categoriest = [
 
 const about = [ { title: 'About us' }, { title: 'Delivery' }, { title: 'Testimonials' }, { title: 'Contact' } ];
 
-const firstCol = categoriest.slice(0, 5);
-const secondCol = categoriest.slice(5, 13);
-const thirdCol = categoriest.slice(13, 17);
+const firstCol = categories.slice(0, 5);
+const secondCol = categories.slice(5, 13);
+const thirdCol = categories.slice(13, 17);
 const currentYear= new Date().getFullYear();
 export default class Footer extends Component {
 	state = { clicked: false, clicked1: false, clicked2: false };
@@ -91,7 +91,7 @@ export default class Footer extends Component {
 					<Row className="d-xs-flex d-sm-flex d-md-none">
 						<Col className={styles.contactText}>
 							<p className={styles.copyright}>
-							&copy;Copyright{currentYear}. <br /> All Rights Reserved.
+							&copy;Copyright{' '}{currentYear}. <br /> All Rights Reserved.
 							</p>
 							<Accordion>
 								<Card>
@@ -120,7 +120,7 @@ export default class Footer extends Component {
 									</Accordion.Toggle>
 									<Accordion.Collapse eventKey="1">
 										<Card.Body className={styles.cardBody}>
-											{categoriest.map(({ title }) => (
+											{categories.map(({ title }) => (
 												<div>
 													<Link to="/error">{title}</Link> <br />
 												</div>
@@ -154,7 +154,7 @@ export default class Footer extends Component {
 					<Row className="d-none d-md-flex">
 						<Col xs={3} className={styles.contactText}>
 							<p>
-							&copy;Copyright{currentYear}. <br /> All Rights Reserved.
+							&copy;Copyright{' '}{currentYear}. <br /> All Rights Reserved.
 							</p>
 							<h2 className={styles.contactTitle}>contact</h2>
 							<p>
@@ -171,7 +171,7 @@ export default class Footer extends Component {
 						<Col xs={6}>
 							<Row>
 								<Col>
-									<h1 className={styles.footTitle}>Categoriest</h1>
+									<h1 className={styles.footTitle}>Categories</h1>
 								</Col>
 							</Row>
 							<Row className={styles.footItem}>
