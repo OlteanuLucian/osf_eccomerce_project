@@ -103,3 +103,75 @@
     margin-left: 20px;
 }
 
+
+// responsiveness
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .row, .mainPrice  {
+        text-align: center;
+    }
+
+    .btnGreen {
+        margin-right: 0;
+    }
+
+    .form {
+        margin-left: 17px;
+    }
+    
+    .apply {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    .updateCart {
+        margin-left: 0;
+        width: 220px;
+        margin-bottom: 10px;
+    }  
+}
+
+@media (min-width: 768px) and (max-width: 1020px) {
+    .btnGreen{
+        margin-right: 90px;
+        width: 220px;
+    }
+
+    .form {
+        margin-left: 100px;
+    }
+
+    .apply {
+        margin-right: 100px;
+    }
+
+    .updateCart {
+        margin-left:80px;
+    }
+
+    .row, .mainPrice {
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1280px) { 
+    .btnGreen {
+        padding: 8px 15px;
+        margin-right: 20px;
+        width: 220px;
+    }
+
+    .form {
+        margin-left: 0;
+    }
+    
+    .apply {
+        margin-right: 50px;
+    }
+    
+    .updateCart {
+        margin-left: 0;
+    }
+}

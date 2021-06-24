@@ -6,6 +6,7 @@ import { CategoryServices } from './pages/CategoryServices';
 import { Layout } from './components/Layout';
 import { ProductPage } from './pages/ProductPage';
 import { Cart } from './pages/Cart';
+import { Release } from './pages/Release';
 
 const Router = () => {
 	return (
@@ -16,6 +17,7 @@ const Router = () => {
 				<Route component={CategoryServices} path="/categories" exact />
 				<Route component={ProductPage} path="/cardigan" exact />
 				<Route component={Cart} path="/checkout" exact />
+				<Route component={Release} path ="/release" exact />
 			</Layout>
 		</Switch>
 	);
