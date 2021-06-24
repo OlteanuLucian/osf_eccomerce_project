@@ -1,5 +1,3 @@
-
-
 .row {
     margin-right: 0;
 }
@@ -123,3 +121,53 @@
     
 }
 
+// responsiveness
+
+@media (min-width: 320px) and (max-width: 425px) {
+
+    .dropdown {
+        .btnDrop {
+            width: 150px;
+        }
+    }
+
+    .smRow {
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    .btnAll {
+        width: 180px;
+    }
+
+    .dropTitle {
+        margin-left: 20%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 899px) {
+  
+	.dropdown {
+        .btnDrop {
+            width: 70px;
+        }
+    }
+
+    .btnAll {
+        width: 80px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    .dropdown {
+        .btnDrop {
+            width: 150px;
+        }
+    }
+
+    .btnAll {
+        width: 175px;
+    }
+}

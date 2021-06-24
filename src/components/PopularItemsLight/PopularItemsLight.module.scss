@@ -1,5 +1,3 @@
-
-
 .container {
     background-color: #f1edea;
     padding: 60px 65px 55px 65px;
@@ -30,5 +28,27 @@
     &:after {
         margin: 0 -55% 0 .5em;
     }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+	.carousel ol {
+		position: relative;
+        top: 103%;
+        
+        li {
+            background-color: black;
+        }
+    }
+    
+    .mainTitle {
+        margin-bottom: 0;
+
+        &:before,
+        &:after {
+        width: 20%;
+    }
+
+  }
 }
 

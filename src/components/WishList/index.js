@@ -8,7 +8,7 @@ const WishList = () => {
 	const { wishQuantity } = useContext(WishContext);
 	return (
 		<div>
-			<FontAwesomeIcon icon={faHeart} />
+			<FontAwesomeIcon icon={faHeart} className = {styles.iconSm}/>
 			<div className={styles.quantity}>
 				<span>{wishQuantity}</span>
 			</div>

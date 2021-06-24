@@ -13,7 +13,7 @@ const NavIcons = () => {
 		<Nav className="ml-5" className={styles.nav}>
 			<Nav.Item>
 				<Nav.Link className={styles.navIcons} href="#">
-					<FontAwesomeIcon icon={faSearch} />
+					<FontAwesomeIcon icon={faSearch} className = {styles.iconSm}/>
 				</Nav.Link>
 			</Nav.Item>
 			<Nav.Item>

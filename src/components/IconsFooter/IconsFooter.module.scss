@@ -9,3 +9,23 @@
     color: white;
 }
 
+
+// responsiveness
+
+@media (min-width: 320px) and (max-width: 374px) {
+   .bg{
+       padding-left: 5px;
+   } 
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .bg {
+        padding-left: 35px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 800px) {
+    .bg {
+        padding-left: 27%;
+    }
+}

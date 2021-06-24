@@ -25,7 +25,7 @@ const RegistrationForm = () => {
 	return (
 		<div>
 			<Button onClick={handleShow} className={styles.btnUser}>
-				<FontAwesomeIcon icon={faUser} />
+				<FontAwesomeIcon icon={faUser} className = {styles.iconSm} />
 			</Button>
 
 			<Modal show={show} onHide={handleClose} centered>

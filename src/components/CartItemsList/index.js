@@ -16,7 +16,7 @@ const CartItemsList = () => {
 					</h3>
 				</div>
 			) : (
-				<div className={styles.emtyList}>
+				<div className={styles.emptyList}>
 					<h3> Nothing yet in here... </h3>
 				</div>
 			)}

@@ -10,7 +10,7 @@ const CartNavList = () => {
 	return (
 		<div>
 			<Link to="/checkout" className={styles.link}>
-				<FontAwesomeIcon icon={faShoppingBag} />
+				<FontAwesomeIcon icon={faShoppingBag} className = {styles.iconSm} />
 				<div className={styles.quantity}>
 					<span>{itemsQuantity}</span>
 				</div>

@@ -55,7 +55,7 @@
         }
 }
 
-.colorpicker {
+.colorPicker {
     list-style-type:none;
     margin-right: 15%;
 
@@ -180,7 +180,7 @@
     width: 16px;
     height: 16px;
     border: none;
-    background-color: #DC041D;
+    background-color: #DC041D!important;
     margin-right: 10px;
 }
 
@@ -189,7 +189,7 @@
     width: 16px;
     height: 16px;
     border: none;
-    background-color: #EC6115;;
+    background-color: #EC6115!important;
     margin-right: 10px;
 }
 
@@ -198,7 +198,7 @@
     width: 16px;
     height: 16px;
     border: none;
-    background-color: #43C0CF;
+    background-color: #43C0CF!important;
     margin-right: 10px;
 }
 
@@ -323,6 +323,10 @@
     flex-direction: row;
 }
 
+
+
+// responsive section
+
 @media (max-width: 480px) {
   
     .container {
@@ -348,7 +352,7 @@
             }
     }
 
-    .colorpicker {
+    .colorPicker {
         margin: 0 auto;
         width: 100%;
         padding-top: 10px;
@@ -443,6 +447,75 @@
         display: flex;
         flex-direction: column;
     }
-    
+}
 
-  }
+@media (min-width: 769px) and (max-width: 1024px) {
+    .bigImg {
+        width: 368px;
+        height: 376px;
+    }
+
+    .cartBtn {
+        padding: 10px 20px;
+        right: 20%;
+    }
+
+    .inputGroup {
+        margin: 25px 0 40px 0;
+        width: 82%;
+    }
+
+    .mainTitle {
+        &:before,
+        &:after {
+            width: 10%;
+        }
+    }
+}
+
+@media (min-width: 700px) and (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+    }
+
+    .colorPicker {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        margin-left: 30px;
+
+        img {
+            padding-left: 5px;
+        }
+    }
+
+    .mainTitle {
+        &:before,
+        &:after {
+            width: 2%;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+    .colorPicker {
+        div {
+            img:nth-child(1) {
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 320px) {
+    .colorPicker {
+        div {
+            img:nth-child(1) {
+                margin-left: 15px;
+            }
+        }
+    }
+}

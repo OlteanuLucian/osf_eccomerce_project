@@ -113,7 +113,7 @@ const RuffleCardigan = () => {
 								/>
 							</Col>
 							<Col md={3} className="d-none d-md-block">
-								<ul className={styles.colorpicker}>
+								<ul className={styles.colorPicker}>
 									{products.map(({ smImg, bigImg }) => (
 										<li>
 											<img src={smImg} onClick={() => setImg(bigImg)} />
@@ -122,7 +122,7 @@ const RuffleCardigan = () => {
 								</ul>
 							</Col>
 							<Col className="d-xs-block d-sm-block d-md-none">
-								<Slider {...settings} className={styles.colorpicker}>
+								<Slider {...settings} className={styles.colorPicker}>
 									{products.map(({ smImg, bigImg }) => (
 										<div>
 											<img src={smImg} onClick={() => setImg(bigImg)} />

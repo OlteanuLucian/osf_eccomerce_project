@@ -27,3 +27,11 @@
     }
 
 }
+
+.iconSm {
+	color: #808080;
+	&:focus,
+	&:hover {
+		color: #45413e;
+	}
+}
