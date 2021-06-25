@@ -1,0 +1,100 @@
+
+.container {
+    background-color: #f1edea;
+    height: 746px;
+    padding: 50px 30px 30px 30px;
+}
+
+.bg {
+    background-color: #ffffff;
+    margin: 4%;
+    border-radius: 12px;
+    height: 600px;
+    padding-top: 50px;
+}
+
+
+
+.mainTitle {
+    color: #45413e;
+    font-family: "Lato - Bold";
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.subTitle {
+    color: #000000;
+    font-family: "Lato - Bold";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;   
+}
+
+.circleContainer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5,0.5fr);
+    justify-content: center;
+    justify-items: center ;
+    margin-top: -100px;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border: 4px solid #abcca7;
+    background: none;
+    border-radius: 100%;
+    font-size: 1rem;
+    font-weight: 400;
+    
+} 
+
+.textData {
+    color: #000000;
+    font-family: "Lato - Bold";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;  
+    margin-top: -50px; 
+}
+
+.formControl {
+    color: #45413e;
+    font-family: 'Lato';
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: left;
+    border-radius: 42px;
+    border: 2px solid #e8e2d6;
+    border-right: none;
+}
+
+.inputMain {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.inputGroup {
+    background-color: transparent;
+    border: 2px solid #e8e2d6;
+    border-radius: 42px;
+    border-left: none;
+    
+}
