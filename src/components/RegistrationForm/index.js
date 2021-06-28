@@ -50,7 +50,7 @@ const RegistrationForm = () => {
 											<span>Lato</span>
 										</Col>
 										<Col className={styles.col1}>
-											<a href="#" className={styles.link}>
+											<a href="/" className={styles.link}>
 												forgot password
 											</a>
 										</Col>
@@ -78,7 +78,7 @@ const RegistrationForm = () => {
 							</Button>
 						</div>
 					</Form>
-					<a href="#" className={styles.link}>
+					<a href="/" className={styles.link}>
 						I don’t have an account
 					</a>
 				</Modal.Body>

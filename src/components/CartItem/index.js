@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import styles from './CartItem.module.scss';
 import { CartContext } from '../Contexts/CartContext';
 import Row from 'react-bootstrap/Row';
@@ -13,7 +13,7 @@ const CartItem = ({ item }) => {
 		<div className={styles.div}>
 			<Row>
 				<Col md={2}>
-					<img src="/img/cart/icon.png" className={styles.img} />
+					<img src="/img/cart/icon.png" alt="" className={styles.img} />
 				</Col>
 				<Col md={5}>
 					<h1 className={styles.title}>{item.title}</h1>

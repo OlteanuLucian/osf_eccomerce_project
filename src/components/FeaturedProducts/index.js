@@ -67,10 +67,10 @@ export default class FeaturedProducts extends Component {
 							<h1 className={styles.mainText}>Featured Products</h1>
 							<p className={styles.subText}>Unde omnis iste natus error sit voluptatem</p>
 							<div className={styles.border}>
-								<img src="/img/featuredProducts/icon.png" />
+								<img src="/img/featuredProducts/icon.png"alt=""  />
 							</div>
-							<img onClick={this.previous} src="/img/featuredProducts/prev.png" className={styles.prev} />
-							<img onClick={this.next} src="/img/featuredProducts/next.png" className={styles.next} />
+							<img onClick={this.previous} src="/img/featuredProducts/prev.png" alt="" className={styles.prev} />
+							<img onClick={this.next} src="/img/featuredProducts/next.png" alt=""  className={styles.next} />
 						</Col>
 					</Row>
 

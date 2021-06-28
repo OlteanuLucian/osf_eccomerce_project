@@ -1,7 +1,6 @@
 import React from 'react';
 import styles from './NavIcons.module.scss';
 import Nav from 'react-bootstrap/Nav';
-import cx from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import RegistrationForm from '../RegistrationForm/';

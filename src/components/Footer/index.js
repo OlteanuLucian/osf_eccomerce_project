@@ -212,9 +212,6 @@ export default class Footer extends Component {
 											<Link to="/error">{title}</Link> <br />
 										</div>
 									))}
-									<div className={styles.link}>
-											<Link to="/release">New Release</Link> <br />
-									</div>
 								</Col>
 							</Row>
 						</Col>

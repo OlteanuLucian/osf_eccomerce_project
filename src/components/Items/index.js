@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext } from 'react';
 import { WishContext } from '../Contexts/WishContext';
 import { CartContext } from '../Contexts/CartContext';
 import '../../assets/globalStyles/style.scss';

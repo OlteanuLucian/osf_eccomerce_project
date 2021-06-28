@@ -168,7 +168,7 @@ const Header = () => {
 									</Accordion.Toggle>
 								</Card>
 							</Accordion>{' '}
-							<img src="/img/header/nav_img.png" rounded className={styles.img} />
+							<img src="/img/header/nav_img.png" alt="nav img" rounded className={styles.img} />
 						</Nav>
 
 						{/* DESKTOP */}
@@ -176,7 +176,7 @@ const Header = () => {
 							<NavDropdown
 								className={cx(styles.navDropdown, 'position-static')}
 								title="SERVICES"
-								id="collasible-nav-dropdown"
+								id="collapsible-nav-dropdown"
 							>
 								<div className={styles.navContainer}>
 									<Row className={styles.row}>
@@ -235,6 +235,7 @@ const Header = () => {
 										<Col xs={3}>
 											<img
 												src="/img/header/nav_img.png"
+												alt="" 
 												rounded
 												className={cx(styles.navImg, 'd-none d-md-block')}
 											/>
@@ -258,12 +259,12 @@ const Header = () => {
 								</Nav.Link>
 							</Nav.Item>
 							<NavDropdown title="EN" id="collasible-nav-dropdown" className="d-md-block d-none">
-								<NavDropdown.Item href="#">RU</NavDropdown.Item>
-								<NavDropdown.Item href="#">UA</NavDropdown.Item>
+								<NavDropdown.Item href="#">RO</NavDropdown.Item>
+								<NavDropdown.Item href="#">IT</NavDropdown.Item>
 							</NavDropdown>
 							<NavDropdown title="$ US" id="collasible-nav-dropdown" className="d-md-block d-none">
-								<NavDropdown.Item href="#">RUB</NavDropdown.Item>
-								<NavDropdown.Item href="#">UAN</NavDropdown.Item>
+								<NavDropdown.Item href="#">RON</NavDropdown.Item>
+								<NavDropdown.Item href="#">EUR</NavDropdown.Item>
 							</NavDropdown>
 						</Nav>
 

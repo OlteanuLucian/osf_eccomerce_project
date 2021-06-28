@@ -116,7 +116,7 @@ const RuffleCardigan = () => {
 								<ul className={styles.colorPicker}>
 									{products.map(({ smImg, bigImg }) => (
 										<li>
-											<img src={smImg} onClick={() => setImg(bigImg)} />
+											<img src={smImg} alt="" onClick={() => setImg(bigImg)} />
 										</li>
 									))}
 								</ul>
@@ -125,7 +125,7 @@ const RuffleCardigan = () => {
 								<Slider {...settings} className={styles.colorPicker}>
 									{products.map(({ smImg, bigImg }) => (
 										<div>
-											<img src={smImg} onClick={() => setImg(bigImg)} />
+											<img src={smImg} alt="" onClick={() => setImg(bigImg)} />
 										</div>
 									))}
 								</Slider>

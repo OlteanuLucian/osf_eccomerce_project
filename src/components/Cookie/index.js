@@ -24,7 +24,7 @@ const Cookie = () => {
 			}, 10000);
 			return () => clearTimeout(timer);
 		}
-	}, []);
+	}, );
 
 	return (
 		<div>
@@ -47,7 +47,7 @@ const Cookie = () => {
 							for website performance and interaction with social media offering publicity tailored to
 							your interests. If you continue browsing, we consider that you accept its use. You can
 							expand this information consulting our{' '}
-							<a href="#" className={styles.policyPage}>
+							<a href="/" className={styles.policyPage}>
 								Cookies Policy Page.
 							</a>
 						</div>

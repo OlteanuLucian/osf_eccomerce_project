@@ -81,8 +81,7 @@ const CartContextProvider = (props) => {
 				addItemCart,
 				delItem,
 				decrease,
-				increase,
-				cartTotal
+				increase
 			}}
 		>
 			{props.children}

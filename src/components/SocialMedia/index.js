@@ -1,8 +1,11 @@
 import React from 'react';
 import styles from './SocialMedia.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faRocket } from '@fortawesome/free-solid-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { Link } from 'react-router-dom';
+
 
 
 const SocialMedia = () => {
@@ -21,6 +24,15 @@ const SocialMedia = () => {
 				<a href="https://www.pinterest.com/">
 					<FontAwesomeIcon icon={[ 'fab', 'pinterest-p' ]} />
 				</a>
+				<div className={styles.rocket}>
+					<Link to="/release">
+						<FontAwesomeIcon 
+							icon={faRocket}
+							alt="new release"
+							aia-hidden="true"
+						/>
+					</Link>
+				</div>
 			</Col>
 		</Row>
 		

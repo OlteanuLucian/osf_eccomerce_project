@@ -1,18 +1,44 @@
 
 .container {
     background-color: #f1edea;
-    height: 746px;
+    height: auto;
     padding: 50px 30px 30px 30px;
+    display: flex;
+    flex-direction: column;
 }
 
 .bg {
     background-color: #ffffff;
-    margin: 4%;
+    margin: 4% 4% 0 4%;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+    height: auto;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.bg2 {
+    background-color: #ffffff;
+    margin: 0 4% 0 4%;
     border-radius: 12px;
-    height: 600px;
+    height: auto;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     padding-top: 50px;
 }
 
+.bg3 {
+    background-color: #ffffff;
+    margin: 0 4% 4% 4%;
+    border-radius: 12px;
+    height: auto;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
 
 
 .mainTitle {
@@ -27,6 +53,7 @@
     overflow: hidden;
     margin: 0 auto;
     width: 90%;
+    padding-top: 50px;
 }
 
 .subTitle {
@@ -42,11 +69,10 @@
 
 .circleContainer{
     width: 100%;
-    display: grid;
     grid-template-columns: repeat(5,0.5fr);
     justify-content: center;
     justify-items: center ;
-    margin-top: -100px;
+       
 }
 
 .circle {
@@ -55,9 +81,9 @@
     border: 4px solid #abcca7;
     background: none;
     border-radius: 100%;
-    font-size: 1rem;
-    font-weight: 400;
-    
+    font-family: "Lato - Bold";
+    font-size: 4rem;
+    font-weight: 800;
 } 
 
 .textData {
@@ -69,7 +95,7 @@
     letter-spacing: normal;
     line-height: normal;
     text-align: center;  
-    margin-top: -50px; 
+    margin-top: 20px; 
 }
 
 .formControl {
@@ -84,11 +110,19 @@
     border-radius: 42px;
     border: 2px solid #e8e2d6;
     border-right: none;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    &:focus {
+        border: 2px solid #d7d7d7;
+        box-shadow: none;
+        border-right: none;
+        }
 }
 
 .inputMain {
     margin: 0 auto;
     width: 50%;
+    margin-bottom: 50px;
 }
 
 .inputGroup {
@@ -96,5 +130,8 @@
     border: 2px solid #e8e2d6;
     border-radius: 42px;
     border-left: none;
-    
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-bottom: 9px;
 }
+

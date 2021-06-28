@@ -1,8 +1,6 @@
 import React from 'react';
 import styles from './IconsFooter.module.scss';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import NavIcons from '../NavIcons/';
 import Navbar from 'react-bootstrap/Navbar';
 
