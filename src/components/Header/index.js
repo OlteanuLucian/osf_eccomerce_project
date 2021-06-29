@@ -65,7 +65,7 @@ const Header = () => {
 	};
 
 	return (
-		<header>
+		<header className = {styles.headerNav}>
 			<Container className={styles.container}>
 				<Navbar collapseOnSelect expand="lg" className={styles.navbarSm}>
 					<Navbar.Toggle aria-controls="responsive-navbar-nav">
@@ -82,8 +82,8 @@ const Header = () => {
 					</Navbar.Brand>
 
 					<Navbar.Collapse id="responsive-navbar-nav">
+						
 						{/* MOBILE */}
-
 						<Nav className={cx(styles.nav, 'd-xs-flex d-sm-flex d-lg-none align-left')}>
 							{' '}
 							<Accordion>
@@ -258,11 +258,12 @@ const Header = () => {
 									CONTACT US
 								</Nav.Link>
 							</Nav.Item>
-							<NavDropdown title="EN" id="collasible-nav-dropdown" className="d-md-block d-none">
+							<NavDropdown title="EN" id="collapsible-nav-dropdown" className="d-md-block d-none">
 								<NavDropdown.Item href="#">RO</NavDropdown.Item>
 								<NavDropdown.Item href="#">IT</NavDropdown.Item>
+								<NavDropdown.Item href="#">FR</NavDropdown.Item>
 							</NavDropdown>
-							<NavDropdown title="$ US" id="collasible-nav-dropdown" className="d-md-block d-none">
+							<NavDropdown title="$ US" id="collapsible-nav-dropdown" className="d-md-block d-none">
 								<NavDropdown.Item href="#">RON</NavDropdown.Item>
 								<NavDropdown.Item href="#">EUR</NavDropdown.Item>
 							</NavDropdown>

@@ -26,6 +26,7 @@ const CartItem = ({ item }) => {
 								-
 							</InputGroup.Text>
 						</InputGroup.Prepend>
+
 						<FormControl
 							className={styles.formControl}
 							aria-label="quantity"
@@ -36,6 +37,7 @@ const CartItem = ({ item }) => {
 							})}
 							required
 						/>
+						
 						<InputGroup.Append>
 							<InputGroup.Text className={styles.plus} id="plus" onClick={() => increase(item.id)}>
 								+

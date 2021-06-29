@@ -113,7 +113,7 @@
         text-align: center;
     }
 
-    .inputGroup, .btn, .bigPrice {
+    .btn, .bigPrice {
         margin-top: 0;
     }
 
@@ -124,6 +124,11 @@
     .row {
         padding-left: 110px;
     }
+    .inputGroup {
+        margin-top: 0;
+        margin-left: -20%;    
+    }
+   
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -166,6 +171,8 @@
 		position: relative;
 		top: 103%;
 	}
+
+    
 }
 
 

@@ -139,10 +139,9 @@
 	padding-left: 18px;
 }
 
+//responsiveness
 
-
-
-@media (min-width: 320px) and (max-width: 767px) {
+@media (min-width: 320px) and (max-width: 1024px) {
 	.mainTitle {
 		padding-top: 30px;
 		&:before,

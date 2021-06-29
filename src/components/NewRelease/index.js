@@ -7,7 +7,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import FormControl from 'react-bootstrap/FormControl';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faAngleRight} from '@fortawesome/free-solid-svg-icons';
-import { CountdownCircleTimer } from 'react-countdown-circle-timer';
+
 
 function NewRelease  () {
 

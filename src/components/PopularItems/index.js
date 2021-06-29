@@ -9,7 +9,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
-import CustomCard from '../CustomCard';
+import CustomCardMain from '../CustomCardMain';
 import Carousel from 'react-bootstrap/Carousel';
 import cx from 'classnames';
 import Items from '../Items';
@@ -51,18 +51,24 @@ const PopularItems = () => {
 				<Row className="d-xs-block d-sm-block d-md-none">
 					<Carousel prevIcon={null} nextIcon={null} className={styles.carousel}>
 						{smItems.map(({ cardImg, title, price, id }) => (
-							<Carousel.Item>
-								<CustomCard cardImg={cardImg} title={title} price={price} id={id} />
+							<Carousel.Item>								
+								
+								<CustomCardMain 
+									cardImg={cardImg} 
+									title={title}
+									price={price} 
+									id={id} />
+									
 							</Carousel.Item>
 						))}
+						
 					</Carousel>
 				</Row>
 
 				<Row className={cx('d-none d-md-block', styles.firstRow)}>
 					<Col>
 						<CardColumns>
-							
-
+						
 							<Card>
 								<Card.Img className={styles.cardImg} variant="top" src="/img/popularItems/item2.png" />
 								<Card.Body>
@@ -90,10 +96,10 @@ const PopularItems = () => {
 								<Card.ImgOverlay>
 									<div className={styles.imgContainer}>
 										<p className={styles.imgText}>
-											My dragons are misbehaving again. Unbelieveable!
+											My dragons are misbehaving again. Unbelievable!
 										</p>
 										<p className={styles.imgTime}>
-											<img src="/img/popularItems/img-icon.png" className={styles.imgIcon} />5h
+											<img src="/img/popularItems/img-icon.png" alt="" className={styles.imgIcon} />5h
 											ago
 										</p>
 									</div>

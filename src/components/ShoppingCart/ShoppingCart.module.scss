@@ -1,6 +1,7 @@
 
 .container {
     background-color: #f1edea;
+    margin-top: 85px;
 }
 
 .breadcrumb {
@@ -75,5 +76,11 @@
         &::before {
             width: 12%;
         }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 812px) {
+    .title {
+        width: auto;
     }
 }

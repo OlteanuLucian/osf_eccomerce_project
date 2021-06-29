@@ -11,6 +11,8 @@ import CardColumns from 'react-bootstrap/CardColumns';
 import Accordion from 'react-bootstrap/Accordion';
 import Card from 'react-bootstrap/Card';
 import Items from '../Items';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUndoAlt } from '@fortawesome/free-solid-svg-icons';
 
 const items = [ ...myJson ];
 const itemsPerPage = 4;
@@ -102,10 +104,13 @@ const LandingServices = () => {
 					</Col>
 				</Row>
 
-				<Row>
+				<Row className="d-xs-flex d-sm-flex d-md-flex">
 					<Col>
+						<CardColumns className={styles.cardColumns}>
+							<Items itemsToRender={itemsToShow} />
+						</CardColumns>
 						<button className={styles.btn} onClick={handleShowMoreItems}>
-							load more
+							load more <FontAwesomeIcon icon={faUndoAlt} className={styles.undo} />
 						</button>
 					</Col>
 				</Row>

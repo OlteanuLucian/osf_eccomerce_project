@@ -9,14 +9,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import { Link } from 'react-router-dom';
 
-const pages = [
-	{
-		title: 'Control and manage any device with cloud solutions',
-		text:
-			'Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed'
-	}
-];
-
 const Sales = () => {
 	return (
 		<div>
@@ -26,20 +18,115 @@ const Sales = () => {
 
 					<Col xs={12} className={cx(styles.colSm, 'd-xs-block d-sm-block d-md-none')}>
 						<Carousel prevIcon={null} nextIcon={null}>
-							{pages.map(({ title, text }) => (
-								<Carousel.Item className={styles.carouselItem}>
-									<img className="d-block w-100" src="/img/sales/bg-sm.png" alt="First slide" />
-									<Carousel.Caption className={styles.caption}>
-										<h3 className={cx(styles.titleCarousel, styles.leftCarousel)}>{title}</h3>
-										<p className={cx(styles.subTitleCarousel, styles.leftCarousel)}>{text}</p>
-										<Link to="/categories">
-											<button className={cx(styles.btnCarousel, styles.middleBtnCarousel)}>
-												View more
-											</button>
-										</Link>
-									</Carousel.Caption>
-								</Carousel.Item>
-							))}
+							<Carousel.Item>
+								<img
+									className={cx(styles.imgBg, 'd-block w-100')}
+									src="/img/sales/bg-sm.png"
+									alt="First slide"
+								/>
+								<Carousel.Caption>
+									<h3 className={cx(styles.titleCarousel, styles.middleCarousel)}>
+										{' '}
+										Control and manage any device with cloud solutions
+									</h3>
+									<p className={cx(styles.subTitleCarousel, styles.middleCarousel)}>
+									Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+									</p>
+									<Link to="/categories">
+										<button className={cx(styles.btnCarousel, styles.middleBtnCarousel)}>
+											View more
+										</button>
+									</Link>
+								</Carousel.Caption>
+							</Carousel.Item>
+							<Carousel.Item>
+								<img
+									className={cx(styles.imgBg, 'd-block w-100')}
+									src="/img/sales/sales-bg1.png"
+									alt="Second slide"
+								/>
+								<Carousel.Caption>
+									<h3 className={cx(styles.titleCarousel, styles.middleCarousel)}>
+										{' '}
+										Control and manage any device with cloud solutions
+									</h3>
+									<p className={cx(styles.subTitleCarousel, styles.middleCarousel)}>
+									Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+									</p>
+									<Link to="/categories">
+										<button className={cx(styles.btnCarousel, styles.middleBtnCarousel)}>
+											View more
+										</button>
+									</Link>
+								</Carousel.Caption>
+							</Carousel.Item>
+
+							<Carousel.Item>
+								<img
+									className={cx(styles.imgBg, 'd-block w-100')}
+									src="/img/sales/sales-bg2.png"
+									alt="Third slide"
+								/>
+								<Carousel.Caption>
+									<h3 className={cx(styles.titleCarousel, styles.middleCarousel)}>
+										{' '}
+										Control and manage any device with cloud solutions
+									</h3>
+									<p className={cx(styles.subTitleCarousel, styles.middleCarousel)}>
+									Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+									</p>
+									<Link to="/categories">
+										<button className={cx(styles.btnCarousel, styles.middleBtnCarousel)}>
+											View more
+										</button>
+									</Link>
+								</Carousel.Caption>
+							</Carousel.Item>
+
+							<Carousel.Item>
+								<img
+									className={cx(styles.imgBg, 'd-block w-100')}
+									src="/img/sales/bg-sm.png"
+									alt="Fourth slide"
+								/>
+								<Carousel.Caption>
+									<h3 className={cx(styles.titleCarousel, styles.middleCarousel)}>
+										{' '}
+										Control and manage any device with cloud solutions
+									</h3>
+									<p className={cx(styles.subTitleCarousel, styles.middleCarousel)}>
+									Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+									</p>
+									<Link to="/categories">
+										<button className={cx(styles.btnCarousel, styles.middleBtnCarousel)}>
+											View more
+										</button>
+									</Link>
+								</Carousel.Caption>
+							</Carousel.Item>
+
+							<Carousel.Item>
+								<img
+									className={cx(styles.imgBg, 'd-block w-100')}
+									src="/img/sales/sales-bg1.png"
+									alt="Fifth slide"
+								/>
+								<Carousel.Caption>
+									<h3 className={cx(styles.titleCarousel, styles.middleCarousel)}>
+										{' '}
+										Control and manage any device with cloud solutions
+									</h3>
+									<p className={cx(styles.subTitleCarousel, styles.middleCarousel)}>
+									Improve business performance and the user experience with the right mix of IoT technology and processes doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed
+									</p>
+									<Link to="/categories">
+										<button className={cx(styles.btnCarousel, styles.middleBtnCarousel)}>
+											View more
+										</button>
+									</Link>
+								</Carousel.Caption>
+							</Carousel.Item>
+
 						</Carousel>
 					</Col>
 

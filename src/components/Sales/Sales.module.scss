@@ -1,5 +1,5 @@
 .container {
-	margin-top: 25px;
+	margin-top: 110px;
 	margin-bottom: 20px;
 }
 
@@ -127,12 +127,16 @@
 
 @media (min-width: 320px) and (max-width: 480px) {
 	.titleCarousel {
+		margin-top: -10%;
 		width: 100%;
 		font-size: 28px;
+		text-align: left;
 	}
 
 	.subTitleCarousel {
 		width: 100%;
+		text-align: justify;
+		margin-top: -10px;
 	}
 
 	.caption {
@@ -148,6 +152,17 @@
 	.carouselItem {
 		height: 472px;
 		width: 290px;
+	}
+	
+	.btnCarousel {
+		padding: 5px 30px;
+		margin-top: 5%;
+	}
+	
+	.imgBg{
+		height: 472px;
+		object-fit: none;
+		width:100%
 	}
 }
 

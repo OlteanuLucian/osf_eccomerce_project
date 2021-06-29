@@ -8,6 +8,7 @@
 .container {
     background-color: #f1edea;
     height: 746px;
+    margin-top: 85px;
 }
 
 .breadcrumb {
@@ -19,7 +20,7 @@
         li {
             color: #45413e;
             font-family: 'Lato';
-            font-size: 13px;
+            font-size: 15px;
             font-weight: 400;
             font-style: normal;
             letter-spacing: normal;
@@ -175,7 +176,7 @@
 @media (min-width: 320px) and (max-width: 767px) {
 
     .bg {
-        height: 530px;
+        height: 650px;
     }
     
     .container {
@@ -195,6 +196,14 @@
 
     .img {
         top:50%;
+    }
+
+    .searchTitle {
+        position: relative;
+        z-index: 2;
+        text-align: center;
+        left: -25%;
+        margin-top: -05%;
     }
 
 }
