@@ -34,9 +34,35 @@
 }
 
 .navText {
-	color: #45413e;
+	color: #45413e !important;
+	&:hover {
+		color:#ffffff !important;
+		background-color: #262a32!important; 
+		border:none;
+		border-bottom: 3px solid #008000!important;
+		border-radius: 0% !important;
+	}
+	
 }
 
+.navDropdown {
+	a{
+	border-top-left-radius: 0px !important;
+	border-top-right-radius: 0px !important;
+
+		&:hover{
+			text-decoration: none;
+		}
+	}
+
+	&:hover {
+		color:#ffffff!important;
+		background-color: #262a32!important; 
+		border-bottom: 3px solid #008000!important;
+		border-radius: 0% !important;
+		border:none;
+	}
+}
 .navIcons {
 	font-size: larger;
 	margin-left: 20px;
