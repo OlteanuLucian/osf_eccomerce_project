@@ -78,8 +78,9 @@
 	}
 
 .nav-tabs .nav-link {
-	border-bottom: none;
+	border: none;
 	&:hover {
+		padding-top: 0;
 		color: #ffffff !important;
 		border:none;
 		background-color: #262A33;
