@@ -29,7 +29,7 @@ const LandingServices = () => {
 	};
 
 	useEffect(() => {
-		loopWithSlice(0, 16);
+		loopWithSlice(0, 8);
 	}, []);
 
 	const handleShowMoreItems = () => {

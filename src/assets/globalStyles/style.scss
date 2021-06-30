@@ -74,13 +74,19 @@
 .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
 	background-color: #262A33;
 	color: #ffffff;
+	border:none !important;
 	}
 
-// .nav-tabs .nav-link {
-// 	border-bottom: none;
-// 	border-top-left-radius: 20px;
-// 	border-top-right-radius: 20px;
-// }
+.nav-tabs .nav-link {
+	border-bottom: none;
+	&:hover {
+		color: #ffffff !important;
+		border:none;
+		background-color: #262A33;
+		border-radius: 0%;
+		border-bottom: 3px solid #008000;
+	}
+}
 
 .nav-link {
 	padding: 0;
